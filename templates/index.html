@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife AI Dashboard</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f6f4;
+            color: #20342b;
+        }
+        header {
+            background: #183d2c;
+            color: white;
+            padding: 24px 5%;
+        }
+        header h1 { margin: 0 0 8px; }
+        header p { margin: 0; color: #d4e5d9; }
+        main { max-width: 1150px; margin: 28px auto; padding: 0 20px; }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 16px;
+        }
+        .card, .panel {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #173d2c0d;
+        }
+        .card p { margin: 0 0 12px; color: #65756b; }
+        .number { font-size: 32px; font-weight: bold; color: #24734b; }
+        .panel { margin-top: 22px; }
+        h2 { margin-top: 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 13px 10px; text-align: left; border-bottom: 1px solid #e6ece8; }
+        th { color: #607167; }
+        .status { color: #24734b; font-weight: bold; }
+        .note { color: #65756b; line-height: 1.6; }
+        @media (max-width: 600px) {
+            header { padding: 22px; }
+            th, td { padding: 10px 5px; font-size: 13px; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Wildlife AI Dashboard</h1>
+    <p>AI-Based Wildlife Activity and Biodiversity Analysis System</p>
+</header>
+
+<main>
+    <h2>Project Overview</h2>
+    <p class="note">Explore the dataset prepared for wildlife species detection and biodiversity analysis.</p>
+
+    <section class="cards">
+        <div class="card">
+            <p>Total Images</p>
+            <div class="number">{{ info.total_images }}</div>
+        </div>
+        <div class="card">
+            <p>Wildlife Species</p>
+            <div class="number">{{ info.species|length }}</div>
+        </div>
+        <div class="card">
+            <p>Bounding-Box Annotations</p>
+            <div class="number">{{ info.total_boxes }}</div>
+        </div>
+        <div class="card">
+            <p>Dataset Status</p>
+            <div class="number" style="font-size:22px">
+                {% if info.dataset_ready %}Ready{% else %}Check{% endif %}
+            </div>
+        </div>
+    </section>
+
+    <section class="panel">
+        <h2>Dataset Split</h2>
+        <table>
+            <thead>
+                <tr><th>Split</th><th>Images</th><th>Annotations</th></tr>
+            </thead>
+            <tbody>
+                {% for split, data in info.splits.items() %}
+                <tr>
+                    <td>{{ split|capitalize }}</td>
+                    <td>{{ data.images }}</td>
+                    <td>{{ data.boxes }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+    <section class="panel">
+        <h2>Species in the Dataset</h2>
+        <table>
+            <thead><tr><th>#</th><th>Species</th></tr></thead>
+            <tbody>
+                {% for species in info.species %}
+                <tr><td>{{ loop.index }}</td><td>{{ species|replace('_', ' ')|title }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+    {% if info.error %}
+    <section class="panel">
+        <h2>Dataset Message</h2>
+        <p>{{ info.error }}</p>
+    </section>
+    {% endif %}
+    <section class="panel">
+    <h2>AI Wildlife Detection</h2>
+    <p>Upload an image and run the trained YOLO model.</p>
+    <a href="/detect">Open Detection Page →</a>
+    <a href="{{ url_for('teach') }}">Teach AI</a>
+    </section>
+
+    <section class="panel">
+        <h2>About This Dashboard</h2>
+        <p class="note">
+            This dashboard summarizes dataset images and their annotations.
+            Annotation totals represent labeled objects in the dataset, not
+            the actual population of wildlife in nature. Model-based detection
+            and activity analysis will be added in the next stage.
+        </p>
+        <p class="status">Flask application is running.</p>
+    </section>
+</main>
+</body>
+</html>

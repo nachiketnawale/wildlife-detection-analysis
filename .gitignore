@@ -1,0 +1,42 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+uploads/
+learning_data/
+instance/
+runs/
+timestamp_debug.png
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large datasets
+dataset/
+dataset_v2/
+dataset.zip
+dataset_v2.zip
+images/
+
+# Model weights
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Generated review artifacts
+label_review/
+overlap_review.jpg
+wcs_cleaned_temp.json
+
+# Keep the original annotation JSON out of Git until size is checked
+wcs_20220205_bboxes_with_classes.json

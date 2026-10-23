@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wildlife Detection</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f6f4;
+            color: #20342b;
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 0 18px;
+        }
+
+        .panel {
+            background: white;
+            padding: 24px;
+            margin: 18px 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        button {
+            background: #24734b;
+            color: white;
+            padding: 12px 20px;
+            border: 0;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #195b39;
+        }
+
+        input {
+            margin: 16px 0;
+            display: block;
+            max-width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .error {
+            color: #a12c2c;
+        }
+
+        .success {
+            color: #24734b;
+        }
+
+        .warning {
+            color: #8a5a00;
+            background: #fff5d9;
+            padding: 12px;
+            border-radius: 7px;
+        }
+
+        .result-message {
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        td, th {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #f3f6f4;
+        }
+
+        a {
+            color: #24734b;
+        }
+
+        .small-note {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p><a href="/">&#8592; Back to dashboard</a></p>
+
+    <h1>Wildlife Image Detection</h1>
+
+    <section class="panel">
+        <p>
+            Model status:
+            {% if model_ready %}
+                <strong class="success">Checkpoint loaded</strong>
+            {% else %}
+                <strong class="error">Model unavailable</strong>
+            {% endif %}
+        </p>
+
+        <form method="POST" enctype="multipart/form-data">
+            <label for="image">Choose a wildlife image</label>
+
+            <input
+                id="image"
+                type="file"
+                name="image"
+                accept=".jpg,.jpeg,.png,.webp"
+                required
+            >
+
+            <button type="submit">Detect Wildlife</button>
+        </form>
+
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+    </section>
+
+    {% if result %}
+    <section class="panel">
+
+        <h2>Detection Results</h2>
+
+        {% if result.count > 0 %}
+            <p class="result-message success">
+                Wildlife predictions found: {{ result.count }}
+            </p>
+        {% else %}
+            <p class="result-message warning">
+                No objects detected by the model.
+            </p>
+
+            <p>
+                The model did not find any objects above the current
+                confidence threshold. This does not necessarily mean
+                the image contains no wildlife.
+            </p>
+
+            <p class="small-note">
+                Try another image. If the animal is visible but not detected,
+                the model may need better training data or further training.
+            </p>
+        {% endif %}
+
+        <p>
+            <strong>Detected objects:</strong> {{ result.count }}
+        </p>
+
+        <img
+            src="{{ result.image }}"
+            alt="Image showing the model's wildlife predictions"
+        >
+
+        {% if result.detections %}
+            <h3>Predicted species</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Species</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for item in result.detections %}
+                    <tr>
+                        <td>
+                            {{ item.species|replace('_', ' ')|title }}
+                        </td>
+                        <td>{{ item.confidence }}%</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <p class="small-note">
+                Species names and confidence scores are model predictions
+                and may be incorrect. Verify predictions before using them
+                in biodiversity analysis.
+            </p>
+        {% endif %}
+
+    </section>
+    {% endif %}
+
+</body>
+</html>

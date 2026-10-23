@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teach the AI | Wildlife Project</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f3f6f4;color:#20342b;max-width:1100px;margin:30px auto;padding:0 16px}
+.panel{background:white;padding:22px;margin:18px 0;border-radius:12px;box-shadow:0 2px 8px #0000000a}
+button,input,select{padding:10px;margin:5px 3px;border-radius:6px}
+button{background:#24734b;color:white;border:0;cursor:pointer}
+button:disabled{opacity:.5;cursor:not-allowed}
+#stage{position:relative;width:100%;margin-top:14px}
+#photo{display:block;width:100%;height:auto}
+#overlay{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+.boxrow{display:grid;grid-template-columns:1fr 1fr auto;gap:6px;align-items:center;border-bottom:1px solid #ddd;padding:8px 0}
+input[type=text],select{max-width:100%}
+.note{color:#666;font-size:14px;line-height:1.5}
+.status{padding:10px;border-radius:6px;background:#edf6ef;margin-top:10px}
+@media(max-width:600px){.boxrow{grid-template-columns:1fr}.panel{padding:14px}}
+</style>
+</head>
+<body>
+<p><a href="/">← Back to dashboard</a> | <a href="/detect">Wildlife Detection</a></p>
+<h1>Teach the AI</h1>
+<p>Review the model's suggested boxes, correct the species and save verified examples for future training.</p>
+
+<section class="panel">
+  <p><strong>Model:</strong> {{ "Available" if model_ready else "Unavailable" }}</p>
+  <form id="uploadForm">
+    <label for="imageInput">Choose a wildlife image</label><br>
+    <input id="imageInput" type="file" accept=".jpg,.jpeg,.png,.webp" required>
+    <button type="submit" {% if not model_ready %}disabled{% endif %}>Upload and suggest boxes</button>
+  </form>
+  <p class="note">AI suggestions may be wrong. Verify every box and species before saving.</p>
+</section>
+
+<section class="panel" id="editor" hidden>
+  <h2>Review annotations</h2>
+  <div id="stage">
+    <img id="photo" alt="Image for annotation">
+    <canvas id="overlay"></canvas>
+  </div>
+  <p class="note">Choose “Draw missing box”, then drag over the image. Boxes use normalized image coordinates.</p>
+
+  <div>
+    <label for="newSpecies">Species for new boxes</label>
+    <input id="newSpecies" type="text" placeholder="e.g. tiger">
+    <button id="drawBtn" type="button">Draw missing box</button>
+    <button id="cancelBtn" type="button">Cancel drawing</button>
+  </div>
+
+  <h3>Suggested and corrected boxes</h3>
+  <div id="boxList"></div>
+  <button id="saveBtn" type="button">Save verified annotations</button>
+  <p id="status" class="status" role="status">Upload an image to begin.</p>
+</section>
+
+<script>
+const initialClasses = {{ classes | tojson | safe }};
+let classes = { ...initialClasses };
+let boxes = [];
+let imageId = null;
+let drawing = false;
+let startPoint = null;
+let draftBox = null;
+
+const form = document.getElementById("uploadForm");
+const input = document.getElementById("imageInput");
+const editor = document.getElementById("editor");
+const photo = document.getElementById("photo");
+const canvas = document.getElementById("overlay");
+const ctx = canvas.getContext("2d");
+const boxList = document.getElementById("boxList");
+const status = document.getElementById("status");
+const newSpecies = document.getElementById("newSpecies");
+
+function say(message) {
+  status.textContent = message;
+}
+
+function speciesOptions(selected) {
+  return Object.entries(classes).map(([id, name]) =>
+    `<option value="${escapeHtml(name)}" ${name.toLowerCase() === String(selected).toLowerCase() ? "selected" : ""}>${escapeHtml(name)}</option>`
+  ).join("");
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, ch => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  })[ch]);
+}
+
+function resizeCanvas() {
+  if (!photo.naturalWidth) return;
+  canvas.width = photo.naturalWidth;
+  canvas.height = photo.naturalHeight;
+  redraw();
+}
+
+function redraw() {
+  if (!canvas.width || !canvas.height) return;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  boxes.forEach((b, i) => {
+    const x = b.x1 * canvas.width, y = b.y1 * canvas.height;
+    const w = (b.x2 - b.x1) * canvas.width;
+    const h = (b.y2 - b.y1) * canvas.height;
+    ctx.lineWidth = Math.max(2, canvas.width / 400);
+    ctx.strokeStyle = "#20a65a";
+    ctx.fillStyle = "rgba(32,166,90,0.10)";
+    ctx.strokeRect(x, y, w, h);
+    ctx.fillRect(x, y, w, h);
+    ctx.font = `bold ${Math.max(14, canvas.width / 55)}px Arial`;
+    ctx.fillStyle = "#0b572d";
+    ctx.fillText(`${i+1}. ${b.species}`, x, Math.max(16, y - 5));
+  });
+  if (draftBox) {
+    ctx.strokeStyle = "#ff8c00";
+    ctx.lineWidth = Math.max(2, canvas.width / 400);
+    ctx.strokeRect(
+      draftBox.x1 * canvas.width,
+      draftBox.y1 * canvas.height,
+      (draftBox.x2 - draftBox.x1) * canvas.width,
+      (draftBox.y2 - draftBox.y1) * canvas.height
+    );
+  }
+}
+
+function renderList() {
+  boxList.innerHTML = "";
+  boxes.forEach((b, i) => {
+    const row = document.createElement("div");
+    row.className = "boxrow";
+
+    const label = document.createElement("span");
+    label.textContent = `Box ${i+1} · AI confidence: ${b.confidence ?? "manual"}${b.confidence !== undefined ? "%" : ""}`;
+
+    const select = document.createElement("select");
+    select.innerHTML = speciesOptions(b.species);
+    select.setAttribute("aria-label", `Species for box ${i+1}`);
+    select.addEventListener("change", () => {
+      b.species = select.value;
+      redraw();
+    });
+
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.textContent = "Remove";
+    remove.addEventListener("click", () => {
+      boxes.splice(i, 1);
+      renderList();
+      redraw();
+    });
+
+    row.append(label, select, remove);
+    boxList.appendChild(row);
+  });
+}
+
+form.addEventListener("submit", async event => {
+  event.preventDefault();
+  if (!input.files.length) return;
+
+  say("Uploading image and generating suggestions...");
+  const body = new FormData();
+  body.append("image", input.files[0]);
+
+  try {
+    const response = await fetch("/teach/upload", {method:"POST", body});
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Upload failed.");
+
+    imageId = data.image_id;
+    classes = {...data.classes};
+    boxes = data.boxes.map(b => ({
+      ...b,
+      species: classes[String(b.class_id)] ?? "unknown"
+    }));
+
+    editor.hidden = false;
+    photo.onload = () => {
+      resizeCanvas();
+      renderList();
+    };
+    photo.src = data.image_url;
+    if (photo.complete) resizeCanvas();
+    say(`Image loaded. ${boxes.length} suggested box(es). Review before saving.`);
+  } catch (err) {
+    say(err.message);
+  }
+});
+
+document.getElementById("drawBtn").addEventListener("click", () => {
+  if (!photo.naturalWidth) return say("Upload an image first.");
+  if (!newSpecies.value.trim()) return say("Enter the species name for the new box.");
+  drawing = true;
+  draftBox = null;
+  canvas.style.cursor = "crosshair";
+  say("Drag on the image to draw a bounding box.");
+});
+
+document.getElementById("cancelBtn").addEventListener("click", () => {
+  drawing = false;
+  startPoint = null;
+  draftBox = null;
+  canvas.style.cursor = "default";
+  redraw();
+  say("Drawing cancelled.");
+});
+
+function pointFromEvent(event) {
+  const r = canvas.getBoundingClientRect();
+  return {
+    x: Math.max(0, Math.min(1, (event.clientX-r.left)/r.width)),
+    y: Math.max(0, Math.min(1, (event.clientY-r.top)/r.height))
+  };
+}
+
+canvas.addEventListener("pointerdown", event => {
+  if (!drawing) return;
+  canvas.setPointerCapture(event.pointerId);
+  startPoint = pointFromEvent(event);
+  draftBox = {x1:startPoint.x,y1:startPoint.y,x2:startPoint.x,y2:startPoint.y};
+});
+
+canvas.addEventListener("pointermove", event => {
+  if (!drawing || !startPoint) return;
+  const p = pointFromEvent(event);
+  draftBox = {
+    x1:Math.min(startPoint.x,p.x), y1:Math.min(startPoint.y,p.y),
+    x2:Math.max(startPoint.x,p.x), y2:Math.max(startPoint.y,p.y)
+  };
+  redraw();
+});
+
+canvas.addEventListener("pointerup", event => {
+  if (!drawing || !startPoint || !draftBox) return;
+  const p = pointFromEvent(event);
+  const b = {
+    x1:Math.min(startPoint.x,p.x), y1:Math.min(startPoint.y,p.y),
+    x2:Math.max(startPoint.x,p.x), y2:Math.max(startPoint.y,p.y)
+  };
+  drawing = false;
+  startPoint = null;
+  draftBox = null;
+  canvas.style.cursor = "default";
+
+  if (b.x2-b.x1 < 0.005 || b.y2-b.y1 < 0.005) {
+    redraw();
+    return say("Box too small. Draw a larger box.");
+  }
+
+  boxes.push({...b, species:newSpecies.value.trim().toLowerCase()});
+  renderList();
+  redraw();
+  say("Box added. Review the annotations, then save.");
+});
+
+document.getElementById("saveBtn").addEventListener("click", async () => {
+  if (!imageId) return say("Upload an image first.");
+  if (!boxes.length) return say("Add at least one verified box.");
+
+  const payload = {
+    image_id: imageId,
+    boxes: boxes.map(b => ({
+      x1:b.x1, y1:b.y1, x2:b.x2, y2:b.y2, species:b.species
+    }))
+  };
+
+  say("Saving verified annotations...");
+  try {
+    const response = await fetch("/teach/save", {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify(payload)
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Could not save.");
+
+    classes = {...data.classes};
+    say(`${data.message} ${data.boxes_saved} box(es) saved. ${data.note}`);
+  } catch (err) {
+    say(err.message);
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (photo.complete) resizeCanvas();
+});
+</script>
+</body>
+</html>
