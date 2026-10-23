@@ -1,42 +1,15 @@
+node_modules
 
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-env/
-.env
-.env.*
-!.env.example
-uploads/
-learning_data/
-instance/
-runs/
-timestamp_debug.png
-*.log
-*.db
-*.sqlite
-*.sqlite3
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+extracted_temp_images/
 
-# Large datasets
-dataset/
-dataset_v2/
+test_sample_images/
+
+extracted_temp_images/
+
+test_sample_images/
+
 dataset.zip
-dataset_v2.zip
-images/
 
-# Model weights
-models/*.pt
-models/*.pth
-models/*.onnx
-
-# Generated review artifacts
-label_review/
-overlap_review.jpg
-wcs_cleaned_temp.json
-
-# Keep the original annotation JSON out of Git until size is checked
 wcs_20220205_bboxes_with_classes.json
+
+wcs_cleaned_temp.json

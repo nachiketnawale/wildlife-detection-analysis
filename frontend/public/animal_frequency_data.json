@@ -1,0 +1,27 @@
+{
+  "Peccary": {
+    "Morning": 20,
+    "Evening": 17,
+    "Night": 8
+  },
+  "Zebra": {
+    "Morning": 33,
+    "Evening": 25,
+    "Night": 42
+  },
+  "Elephant": {
+    "Morning": 30,
+    "Evening": 29,
+    "Night": 41
+  },
+  "Ocelot": {
+    "Morning": 13,
+    "Evening": 9,
+    "Night": 70
+  },
+  "Jaguar": {
+    "Morning": 12,
+    "Evening": 20,
+    "Night": 54
+  }
+}

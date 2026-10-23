@@ -1,136 +1,481 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wildlife AI Dashboard</title>
-    <style>
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f3f6f4;
-            color: #20342b;
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2324734b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m8 3 4 8 5-5 5 15H2L8 3z'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WildVision AI | Wildlife Detection & Annotation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              forest: {
+                50: '#f1f8f4',
+                100: '#def0e6',
+                200: '#bfe2d0',
+                300: '#92cbb1',
+                400: '#5eac8b',
+                500: '#388e6b',
+                600: '#24734b',
+                700: '#1d5c3d',
+                800: '#183d2c',
+                900: '#153627',
+                950: '#0a1d15',
+              },
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
+            }
+          }
         }
-        header {
-            background: #183d2c;
-            color: white;
-            padding: 24px 5%;
-        }
-        header h1 { margin: 0 0 8px; }
-        header p { margin: 0; color: #d4e5d9; }
-        main { max-width: 1150px; margin: 28px auto; padding: 0 20px; }
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-            gap: 16px;
-        }
-        .card, .panel {
-            background: white;
-            padding: 22px;
-            border-radius: 12px;
-            box-shadow: 0 3px 12px #173d2c0d;
-        }
-        .card p { margin: 0 0 12px; color: #65756b; }
-        .number { font-size: 32px; font-weight: bold; color: #24734b; }
-        .panel { margin-top: 22px; }
-        h2 { margin-top: 0; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 13px 10px; text-align: left; border-bottom: 1px solid #e6ece8; }
-        th { color: #607167; }
-        .status { color: #24734b; font-weight: bold; }
-        .note { color: #65756b; line-height: 1.6; }
-        @media (max-width: 600px) {
-            header { padding: 22px; }
-            th, td { padding: 10px 5px; font-size: 13px; }
-        }
-    </style>
-</head>
-<body>
-<header>
-    <h1>Wildlife AI Dashboard</h1>
-    <p>AI-Based Wildlife Activity and Biodiversity Analysis System</p>
-</header>
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased selection:bg-forest-600 selection:text-white min-h-screen">
+    
+    <!-- Top Navigation Bar -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-xs">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="h-10 w-10 rounded-xl bg-forest-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">
+            WV
+          </div>
+          <div>
+            <h1 class="text-lg font-bold text-slate-900 leading-tight">WildVision AI</h1>
+            <p class="text-xs text-slate-500 font-medium">Camera Trap Time-of-Day Animal Frequency</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-3">
+          <span id="data-status-badge" class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200">
+            <span class="w-2 h-2 mr-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+            Checking data...
+          </span>
+          <button onclick="loadFrequencyData()" class="px-3 py-1.5 text-xs font-semibold bg-forest-50 text-forest-700 hover:bg-forest-100 rounded-lg transition-colors border border-forest-200 flex items-center space-x-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+            <span>Refresh</span>
+          </button>
+        </div>
+      </div>
+    </header>
 
-<main>
-    <h2>Project Overview</h2>
-    <p class="note">Explore the dataset prepared for wildlife species detection and biodiversity analysis.</p>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      
+      <!-- Notice Alert Banner for File Generation (hidden when data loads) -->
+      <div id="status-banner" class="hidden p-4 rounded-xl border"></div>
 
-    <section class="cards">
-        <div class="card">
-            <p>Total Images</p>
-            <div class="number">{{ info.total_images }}</div>
+      <!-- Top Insights Section -->
+      <section>
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Top Insights</h2>
+            <p class="text-xs text-slate-500">Key automated observations across camera-trap activity windows</p>
+          </div>
         </div>
-        <div class="card">
-            <p>Wildlife Species</p>
-            <div class="number">{{ info.species|length }}</div>
-        </div>
-        <div class="card">
-            <p>Bounding-Box Annotations</p>
-            <div class="number">{{ info.total_boxes }}</div>
-        </div>
-        <div class="card">
-            <p>Dataset Status</p>
-            <div class="number" style="font-size:22px">
-                {% if info.dataset_ready %}Ready{% else %}Check{% endif %}
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4" id="insights-container">
+          
+          <!-- Insight 1: Highest Night Activity -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-slate-300 transition-all">
+            <div class="flex items-center justify-between text-indigo-600 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Highest Night Activity</span>
+              <span class="p-2 rounded-xl bg-indigo-50 text-indigo-600">🌙</span>
             </div>
+            <div id="insight-night-animal" class="text-xl font-bold text-slate-900">--</div>
+            <div id="insight-night-count" class="text-xs text-slate-500 mt-1">18:00 to 05:59 window</div>
+          </div>
+
+          <!-- Insight 2: Highest Morning Activity -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-slate-300 transition-all">
+            <div class="flex items-center justify-between text-amber-600 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Highest Morning Activity</span>
+              <span class="p-2 rounded-xl bg-amber-50 text-amber-600">☀️</span>
+            </div>
+            <div id="insight-morning-animal" class="text-xl font-bold text-slate-900">--</div>
+            <div id="insight-morning-count" class="text-xs text-slate-500 mt-1">06:00 to 11:59 window</div>
+          </div>
+
+          <!-- Insight 3: Highest Evening Activity -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-slate-300 transition-all">
+            <div class="flex items-center justify-between text-orange-600 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Highest Evening Activity</span>
+              <span class="p-2 rounded-xl bg-orange-50 text-orange-600">🌇</span>
+            </div>
+            <div id="insight-evening-animal" class="text-xl font-bold text-slate-900">--</div>
+            <div id="insight-evening-count" class="text-xs text-slate-500 mt-1">12:00 to 17:59 window</div>
+          </div>
+
+          <!-- Insight 4: Most Seen Overall -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-slate-300 transition-all">
+            <div class="flex items-center justify-between text-emerald-600 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Most Seen Overall</span>
+              <span class="p-2 rounded-xl bg-emerald-50 text-emerald-600">🏆</span>
+            </div>
+            <div id="insight-overall-animal" class="text-xl font-bold text-slate-900">--</div>
+            <div id="insight-overall-count" class="text-xs text-slate-500 mt-1">Across all time slots</div>
+          </div>
+
         </div>
-    </section>
+      </section>
 
-    <section class="panel">
-        <h2>Dataset Split</h2>
-        <table>
+      <!-- Search & Filter Controls -->
+      <section class="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-base font-bold text-slate-900">Animal Species Frequency Explorer</h2>
+            <p class="text-xs text-slate-500">Filter by species to inspect sightings across Morning, Evening, and Night</p>
+          </div>
+          
+          <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
+            <!-- Search Text Input -->
+            <div class="relative">
+              <input 
+                type="text" 
+                id="search-input" 
+                placeholder="Search animal..." 
+                class="w-full sm:w-56 pl-9 pr-3 py-2 text-sm rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-forest-500 focus:border-forest-500 transition-all"
+                oninput="handleSearchInput(this.value)"
+              />
+              <svg class="w-4 h-4 text-slate-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+
+            <!-- Species Dropdown Selector -->
+            <select 
+              id="species-select" 
+              class="px-3 py-2 text-sm rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-forest-500 focus:border-forest-500 font-medium text-slate-700"
+              onchange="handleSpeciesSelect(this.value)"
+            >
+              <option value="ALL">All Species (Combined)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Frequency Statistics Cards for Selected Animal -->
+        <div class="mt-6 pt-6 border-t border-slate-100">
+          <div class="flex items-center justify-between mb-4">
+            <span id="selected-animal-title" class="text-sm font-bold text-forest-700 flex items-center space-x-2">
+              <span>Displaying: All Species Combined</span>
+            </span>
+            <span id="selected-animal-total-badge" class="px-2.5 py-1 text-xs font-semibold bg-slate-100 text-slate-700 rounded-lg">
+              Total Sightings: 0
+            </span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Morning Bucket Card -->
+            <div class="p-5 rounded-xl bg-amber-50/60 border border-amber-200/80">
+              <div class="flex items-center justify-between text-amber-800">
+                <span class="text-xs font-bold uppercase tracking-wider">Morning Sighting</span>
+                <span class="text-sm">☀️</span>
+              </div>
+              <div class="text-3xl font-extrabold text-amber-900 mt-2" id="card-morning-count">0</div>
+              <div class="text-xs text-amber-700/80 mt-1 flex justify-between">
+                <span>06:00 to 11:59</span>
+                <span id="card-morning-pct" class="font-semibold">0%</span>
+              </div>
+            </div>
+
+            <!-- Evening Bucket Card -->
+            <div class="p-5 rounded-xl bg-orange-50/60 border border-orange-200/80">
+              <div class="flex items-center justify-between text-orange-800">
+                <span class="text-xs font-bold uppercase tracking-wider">Evening Sighting</span>
+                <span class="text-sm">🌇</span>
+              </div>
+              <div class="text-3xl font-extrabold text-orange-900 mt-2" id="card-evening-count">0</div>
+              <div class="text-xs text-orange-700/80 mt-1 flex justify-between">
+                <span>12:00 to 17:59</span>
+                <span id="card-evening-pct" class="font-semibold">0%</span>
+              </div>
+            </div>
+
+            <!-- Night Bucket Card -->
+            <div class="p-5 rounded-xl bg-indigo-50/60 border border-indigo-200/80">
+              <div class="flex items-center justify-between text-indigo-800">
+                <span class="text-xs font-bold uppercase tracking-wider">Night Sighting</span>
+                <span class="text-sm">🌙</span>
+              </div>
+              <div class="text-3xl font-extrabold text-indigo-900 mt-2" id="card-night-count">0</div>
+              <div class="text-xs text-indigo-700/80 mt-1 flex justify-between">
+                <span>18:00 to 05:59</span>
+                <span id="card-night-pct" class="font-semibold">0%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proportion Distribution Bar -->
+          <div class="mt-4">
+            <div class="text-xs text-slate-500 mb-1.5 font-medium flex justify-between">
+              <span>Time of Day Distribution</span>
+              <span id="distribution-label" class="font-mono">--</span>
+            </div>
+            <div class="h-2.5 w-full bg-slate-100 rounded-full overflow-hidden flex">
+              <div id="bar-morning" class="bg-amber-400 transition-all duration-500" style="width: 0%"></div>
+              <div id="bar-evening" class="bg-orange-500 transition-all duration-500" style="width: 0%"></div>
+              <div id="bar-night" class="bg-indigo-600 transition-all duration-500" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data Table Section -->
+      <section class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
+          <div>
+            <h2 class="text-base font-bold text-slate-900">Species Breakdown Summary</h2>
+            <p class="text-xs text-slate-500">Cross-referenced YOLO detections with camera trap OSD timestamp buckets</p>
+          </div>
+          <span class="text-xs font-mono text-slate-400" id="species-count-label">0 species</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-sm">
             <thead>
-                <tr><th>Split</th><th>Images</th><th>Annotations</th></tr>
+              <tr class="bg-slate-50/75 border-b border-slate-200/75 text-xs font-bold text-slate-600 uppercase tracking-wider">
+                <th class="py-3 px-6">Animal / Species</th>
+                <th class="py-3 px-6 text-center">Morning (06:00-11:59)</th>
+                <th class="py-3 px-6 text-center">Evening (12:00-17:59)</th>
+                <th class="py-3 px-6 text-center">Night (18:00-05:59)</th>
+                <th class="py-3 px-6 text-center">Total Sightings</th>
+                <th class="py-3 px-6 text-right">Peak Activity</th>
+              </tr>
             </thead>
-            <tbody>
-                {% for split, data in info.splits.items() %}
-                <tr>
-                    <td>{{ split|capitalize }}</td>
-                    <td>{{ data.images }}</td>
-                    <td>{{ data.boxes }}</td>
-                </tr>
-                {% endfor %}
+            <tbody id="table-body" class="divide-y divide-slate-100 font-medium">
+              <tr>
+                <td colspan="6" class="py-8 text-center text-slate-400 text-sm">
+                  Loading frequency data...
+                </td>
+              </tr>
             </tbody>
-        </table>
-    </section>
+          </table>
+        </div>
+      </section>
 
-    <section class="panel">
-        <h2>Species in the Dataset</h2>
-        <table>
-            <thead><tr><th>#</th><th>Species</th></tr></thead>
-            <tbody>
-                {% for species in info.species %}
-                <tr><td>{{ loop.index }}</td><td>{{ species|replace('_', ' ')|title }}</td></tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </section>
+    </main>
 
-    {% if info.error %}
-    <section class="panel">
-        <h2>Dataset Message</h2>
-        <p>{{ info.error }}</p>
-    </section>
-    {% endif %}
-    <section class="panel">
-    <h2>AI Wildlife Detection</h2>
-    <p>Upload an image and run the trained YOLO model.</p>
-    <a href="/detect">Open Detection Page →</a>
-    <a href="{{ url_for('teach') }}">Teach AI</a>
-    </section>
+    <!-- React root placeholder to preserve existing frontend mount point -->
+    <div id="root"></div>
 
-    <section class="panel">
-        <h2>About This Dashboard</h2>
-        <p class="note">
-            This dashboard summarizes dataset images and their annotations.
-            Annotation totals represent labeled objects in the dataset, not
-            the actual population of wildlife in nature. Model-based detection
-            and activity analysis will be added in the next stage.
-        </p>
-        <p class="status">Flask application is running.</p>
-    </section>
-</main>
-</body>
+    <script>
+      let frequencyData = null;
+      let currentSelectedSpecies = "ALL";
+
+      async function loadFrequencyData() {
+        const badge = document.getElementById("data-status-badge");
+        const banner = document.getElementById("status-banner");
+
+        badge.className = "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200";
+        badge.innerHTML = `<span class="w-2 h-2 mr-1.5 rounded-full bg-amber-500 animate-pulse"></span> Fetching...`;
+
+        try {
+          const response = await fetch("animal_frequency_data.json");
+          if (!response.ok) {
+            throw new Error(`File status: ${response.status} ${response.statusText}`);
+          }
+          frequencyData = await response.json();
+
+          badge.className = "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 border border-emerald-200";
+          badge.innerHTML = `<span class="w-2 h-2 mr-1.5 rounded-full bg-emerald-500"></span> Data Loaded`;
+
+          banner.classList.add("hidden");
+
+          populateDropdown();
+          calculateInsights();
+          renderStats();
+          renderTable();
+        } catch (error) {
+          console.warn("Could not load animal_frequency_data.json:", error);
+
+          badge.className = "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-rose-50 text-rose-700 border border-rose-200";
+          badge.innerHTML = `<span class="w-2 h-2 mr-1.5 rounded-full bg-rose-500"></span> Awaiting File`;
+
+          banner.className = "p-4 rounded-xl border border-amber-300 bg-amber-50 text-amber-800 text-sm flex items-start space-x-3";
+          banner.classList.remove("hidden");
+          banner.innerHTML = `
+            <svg class="w-5 h-5 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <div>
+              <p class="font-bold">animal_frequency_data.json is not ready yet or still generating.</p>
+              <p class="text-xs text-amber-700 mt-1">To generate or update it, run: <code class="font-mono bg-amber-100 px-1 py-0.5 rounded text-amber-900">python merge_stats.py</code> or <code class="font-mono bg-amber-100 px-1 py-0.5 rounded text-amber-900">python timestamp_classifier.py</code>.</p>
+            </div>
+          `;
+        }
+      }
+
+      function populateDropdown() {
+        const select = document.getElementById("species-select");
+        if (!frequencyData) return;
+
+        // Preserve first "ALL" option
+        select.innerHTML = '<option value="ALL">All Species (Combined)</option>';
+
+        Object.keys(frequencyData).sort().forEach(animal => {
+          const opt = document.createElement("option");
+          opt.value = animal;
+          opt.textContent = animal;
+          select.appendChild(opt);
+        });
+
+        select.value = currentSelectedSpecies;
+      }
+
+      function calculateInsights() {
+        if (!frequencyData) return;
+
+        let maxNight = { animal: "None", count: -1 };
+        let maxMorning = { animal: "None", count: -1 };
+        let maxEvening = { animal: "None", count: -1 };
+        let maxOverall = { animal: "None", count: -1 };
+
+        Object.entries(frequencyData).forEach(([animal, buckets]) => {
+          const m = buckets.Morning || 0;
+          const e = buckets.Evening || 0;
+          const n = buckets.Night || 0;
+          const total = m + e + n;
+
+          if (n > maxNight.count) maxNight = { animal, count: n };
+          if (m > maxMorning.count) maxMorning = { animal, count: m };
+          if (e > maxEvening.count) maxEvening = { animal, count: e };
+          if (total > maxOverall.count) maxOverall = { animal, count: total };
+        });
+
+        document.getElementById("insight-night-animal").textContent = maxNight.count > 0 ? maxNight.animal : "None spotted";
+        document.getElementById("insight-night-count").textContent = maxNight.count > 0 ? `${maxNight.count} night sightings` : "0 sightings in night window";
+
+        document.getElementById("insight-morning-animal").textContent = maxMorning.count > 0 ? maxMorning.animal : "None spotted";
+        document.getElementById("insight-morning-count").textContent = maxMorning.count > 0 ? `${maxMorning.count} morning sightings` : "0 sightings in morning window";
+
+        document.getElementById("insight-evening-animal").textContent = maxEvening.count > 0 ? maxEvening.animal : "None spotted";
+        document.getElementById("insight-evening-count").textContent = maxEvening.count > 0 ? `${maxEvening.count} evening sightings` : "0 sightings in evening window";
+
+        document.getElementById("insight-overall-animal").textContent = maxOverall.count > 0 ? maxOverall.animal : "None spotted";
+        document.getElementById("insight-overall-count").textContent = maxOverall.count > 0 ? `${maxOverall.count} total sightings recorded` : "No sightings recorded";
+      }
+
+      function renderStats() {
+        if (!frequencyData) return;
+
+        let m = 0, e = 0, n = 0;
+        let title = "All Species (Combined)";
+
+        if (currentSelectedSpecies === "ALL") {
+          Object.values(frequencyData).forEach(b => {
+            m += b.Morning || 0;
+            e += b.Evening || 0;
+            n += b.Night || 0;
+          });
+        } else if (frequencyData[currentSelectedSpecies]) {
+          const b = frequencyData[currentSelectedSpecies];
+          m = b.Morning || 0;
+          e = b.Evening || 0;
+          n = b.Night || 0;
+          title = currentSelectedSpecies;
+        }
+
+        const total = m + e + n;
+        const mPct = total > 0 ? Math.round((m / total) * 100) : 0;
+        const ePct = total > 0 ? Math.round((e / total) * 100) : 0;
+        const nPct = total > 0 ? Math.round((n / total) * 100) : 0;
+
+        document.getElementById("selected-animal-title").textContent = `Displaying: ${title}`;
+        document.getElementById("selected-animal-total-badge").textContent = `Total Sightings: ${total}`;
+
+        document.getElementById("card-morning-count").textContent = m;
+        document.getElementById("card-morning-pct").textContent = `${mPct}%`;
+
+        document.getElementById("card-evening-count").textContent = e;
+        document.getElementById("card-evening-pct").textContent = `${ePct}%`;
+
+        document.getElementById("card-night-count").textContent = n;
+        document.getElementById("card-night-pct").textContent = `${nPct}%`;
+
+        document.getElementById("bar-morning").style.width = `${mPct}%`;
+        document.getElementById("bar-evening").style.width = `${ePct}%`;
+        document.getElementById("bar-night").style.width = `${nPct}%`;
+
+        document.getElementById("distribution-label").textContent = `M: ${mPct}% | E: ${ePct}% | N: ${nPct}%`;
+      }
+
+      function renderTable(filterQuery = "") {
+        const tbody = document.getElementById("table-body");
+        const countLabel = document.getElementById("species-count-label");
+        if (!frequencyData) return;
+
+        const animals = Object.keys(frequencyData)
+          .sort()
+          .filter(a => a.toLowerCase().includes(filterQuery.toLowerCase()));
+
+        countLabel.textContent = `${animals.length} species`;
+
+        if (animals.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="6" class="py-6 text-center text-slate-400">No matching species found.</td></tr>`;
+          return;
+        }
+
+        tbody.innerHTML = animals.map(animal => {
+          const b = frequencyData[animal];
+          const m = b.Morning || 0;
+          const e = b.Evening || 0;
+          const n = b.Night || 0;
+          const total = m + e + n;
+
+          let peak = "None";
+          let peakBadge = "bg-slate-100 text-slate-600";
+          if (total > 0) {
+            if (m >= e && m >= n) { peak = "Morning ☀️"; peakBadge = "bg-amber-100 text-amber-800"; }
+            else if (e >= m && e >= n) { peak = "Evening 🌇"; peakBadge = "bg-orange-100 text-orange-800"; }
+            else { peak = "Night 🌙"; peakBadge = "bg-indigo-100 text-indigo-800"; }
+          }
+
+          const isSelected = animal === currentSelectedSpecies;
+          const rowClass = isSelected ? "bg-forest-50/60 font-semibold" : "hover:bg-slate-50/80 transition-colors";
+
+          return `
+            <tr class="${rowClass} cursor-pointer" onclick="handleSpeciesSelect('${animal}')">
+              <td class="py-3.5 px-6 font-semibold text-slate-900 flex items-center space-x-2">
+                <span>${animal}</span>
+                ${isSelected ? '<span class="text-forest-600 text-xs">● Active</span>' : ''}
+              </td>
+              <td class="py-3.5 px-6 text-center text-amber-700">${m}</td>
+              <td class="py-3.5 px-6 text-center text-orange-700">${e}</td>
+              <td class="py-3.5 px-6 text-center text-indigo-700">${n}</td>
+              <td class="py-3.5 px-6 text-center font-bold text-slate-900">${total}</td>
+              <td class="py-3.5 px-6 text-right">
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold ${peakBadge}">
+                  ${peak}
+                </span>
+              </td>
+            </tr>
+          `;
+        }).join("");
+      }
+
+      function handleSpeciesSelect(animal) {
+        currentSelectedSpecies = animal;
+        const select = document.getElementById("species-select");
+        if (select) select.value = animal;
+        renderStats();
+        renderTable(document.getElementById("search-input").value);
+      }
+
+      function handleSearchInput(query) {
+        renderTable(query);
+        // If query matches an animal exactly, select it
+        if (frequencyData) {
+          const match = Object.keys(frequencyData).find(a => a.toLowerCase() === query.trim().toLowerCase());
+          if (match) {
+            handleSpeciesSelect(match);
+          }
+        }
+      }
+
+      // Initialize on DOM ready
+      document.addEventListener("DOMContentLoaded", () => {
+        loadFrequencyData();
+      });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

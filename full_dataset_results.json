@@ -1,0 +1,3827 @@
+{
+  "frequency_by_time_of_day": {
+    "Morning": 108,
+    "Evening": 100,
+    "Night": 215,
+    "Unknown": 54
+  },
+  "total_images": 477,
+  "results": [
+    {
+      "file": "064ae7b6-92d5-11e9-9682-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\064ae7b6-92d5-11e9-9682-000d3a74c7de.jpg",
+      "timestamp": "2012-08-17 09:37:15",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "067de22e-92d5-11e9-b55b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\067de22e-92d5-11e9-b55b-000d3a74c7de.jpg",
+      "timestamp": "2012-08-17 17:39:55",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "086ae68a-92d5-11e9-938e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\086ae68a-92d5-11e9-938e-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 11:00:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "09e863e4-92d5-11e9-abc3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\09e863e4-92d5-11e9-abc3-000d3a74c7de.jpg",
+      "timestamp": "2011-09-21 09:47:13",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "09ee3054-92d5-11e9-99e9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\09ee3054-92d5-11e9-99e9-000d3a74c7de.jpg",
+      "timestamp": "2010-10-06 13:02:54",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0cf8a954-92d5-11e9-9819-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\0cf8a954-92d5-11e9-9819-000d3a74c7de.jpg",
+      "timestamp": "2010-09-19 13:41:44",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0d158020-92d5-11e9-90d7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\0d158020-92d5-11e9-90d7-000d3a74c7de.jpg",
+      "timestamp": "2010-10-03 06:42:27",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "0d1a3b12-92d5-11e9-8ccc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\0d1a3b12-92d5-11e9-8ccc-000d3a74c7de.jpg",
+      "timestamp": "2010-10-06 19:39:46",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0e00558b-92d5-11e9-b173-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\0e00558b-92d5-11e9-b173-000d3a74c7de.jpg",
+      "timestamp": "2010-09-21 20:22:16",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "16d60d10-92d5-11e9-a760-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\16d60d10-92d5-11e9-a760-000d3a74c7de.jpg",
+      "timestamp": "2012-02-25 23:54:29",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "19e74059-92d5-11e9-b688-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\19e74059-92d5-11e9-b688-000d3a74c7de.jpg",
+      "timestamp": "2012-02-24 17:47:15",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1b97fc95-92d5-11e9-9acc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\1b97fc95-92d5-11e9-9acc-000d3a74c7de.jpg",
+      "timestamp": "2011-07-26 10:48:10",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1d26163e-92d5-11e9-9670-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\1d26163e-92d5-11e9-9670-000d3a74c7de.jpg",
+      "timestamp": "2011-07-30 20:46:59",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "23ff1158-92d5-11e9-8a02-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\23ff1158-92d5-11e9-8a02-000d3a74c7de.jpg",
+      "timestamp": "2011-07-13 16:13:46",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "27a8938e-92d5-11e9-b861-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\27a8938e-92d5-11e9-b861-000d3a74c7de.jpg",
+      "timestamp": "2011-07-04 08:54:58",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "27b90d8c-92d5-11e9-baea-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\27b90d8c-92d5-11e9-baea-000d3a74c7de.jpg",
+      "timestamp": "2011-06-30 05:14:17",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "29ab7e5b-92d5-11e9-8366-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\29ab7e5b-92d5-11e9-8366-000d3a74c7de.jpg",
+      "timestamp": "2011-01-16 06:25:23",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "2eca13cb-92d5-11e9-a32c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\2eca13cb-92d5-11e9-a32c-000d3a74c7de.jpg",
+      "timestamp": "2011-01-24 09:55:41",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "310cd618-92d5-11e9-a7a2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\310cd618-92d5-11e9-a7a2-000d3a74c7de.jpg",
+      "timestamp": "2011-02-10 18:16:28",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "3513f470-92d5-11e9-a948-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\3513f470-92d5-11e9-a948-000d3a74c7de.jpg",
+      "timestamp": "2008-02-06 18:05:20",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "35a84564-92d5-11e9-b4bf-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\35a84564-92d5-11e9-b4bf-000d3a74c7de.jpg",
+      "timestamp": "2008-04-14 14:59:41",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "38148a8c-92d5-11e9-802a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\38148a8c-92d5-11e9-802a-000d3a74c7de.jpg",
+      "timestamp": "2010-03-13 10:52:36",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "3bfc7596-92d5-11e9-8757-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\3bfc7596-92d5-11e9-8757-000d3a74c7de.jpg",
+      "timestamp": "2010-01-31 17:11:53",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "3bfe4a56-92d5-11e9-b196-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\3bfe4a56-92d5-11e9-b196-000d3a74c7de.jpg",
+      "timestamp": "2010-02-02 06:23:02",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "41a7bb77-92d5-11e9-84cc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\41a7bb77-92d5-11e9-84cc-000d3a74c7de.jpg",
+      "timestamp": "2013-02-07 20:08:01",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "41a7e296-92d5-11e9-a9c2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\41a7e296-92d5-11e9-a9c2-000d3a74c7de.jpg",
+      "timestamp": "2013-02-07 20:08:31",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "477ec4b6-92d5-11e9-bbfd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\477ec4b6-92d5-11e9-bbfd-000d3a74c7de.jpg",
+      "timestamp": "2013-02-20 10:12:44",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4ca60588-92d5-11e9-af9c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4ca60588-92d5-11e9-af9c-000d3a74c7de.jpg",
+      "timestamp": "2009-07-28 11:05:04",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4d337848-92d5-11e9-85e7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4d337848-92d5-11e9-85e7-000d3a74c7de.jpg",
+      "timestamp": "2009-07-16 18:52:41",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4d790cb8-92d5-11e9-a377-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4d790cb8-92d5-11e9-a377-000d3a74c7de.jpg",
+      "timestamp": "2009-08-09 09:37:39",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4ddd9c8a-92d5-11e9-83e0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4ddd9c8a-92d5-11e9-83e0-000d3a74c7de.jpg",
+      "timestamp": "2009-08-13 12:46:11",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4e2ef13f-92d5-11e9-82dc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4e2ef13f-92d5-11e9-82dc-000d3a74c7de.jpg",
+      "timestamp": "2009-08-08 23:20:10",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e6086ad-92d5-11e9-b46b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4e6086ad-92d5-11e9-b46b-000d3a74c7de.jpg",
+      "timestamp": "2009-08-19 19:10:15",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e7f33ab-92d5-11e9-9550-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\4e7f33ab-92d5-11e9-9550-000d3a74c7de.jpg",
+      "timestamp": "2009-08-15 11:14:56",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "51391dca-92d5-11e9-ae65-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\51391dca-92d5-11e9-ae65-000d3a74c7de.jpg",
+      "timestamp": "2009-10-12 12:23:45",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "518765f2-92d5-11e9-a482-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\518765f2-92d5-11e9-a482-000d3a74c7de.jpg",
+      "timestamp": "2012-05-29 23:10:04",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5eff426f-92d5-11e9-afed-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\5eff426f-92d5-11e9-afed-000d3a74c7de.jpg",
+      "timestamp": "2015-02-22 22:28:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "88181c36-92d5-11e9-8100-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\88181c36-92d5-11e9-8100-000d3a74c7de.jpg",
+      "timestamp": "2013-05-31 21:27:35",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8e91bbde-92d5-11e9-9c8b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\8e91bbde-92d5-11e9-9c8b-000d3a74c7de.jpg",
+      "timestamp": "2013-05-10 04:32:34",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8fc6441a-92d5-11e9-bc8d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\8fc6441a-92d5-11e9-bc8d-000d3a74c7de.jpg",
+      "timestamp": "2013-06-10 20:01:19",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "914ae816-92d5-11e9-80f2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\914ae816-92d5-11e9-80f2-000d3a74c7de.jpg",
+      "timestamp": "2013-05-11 01:02:47",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "97f5539e-92d5-11e9-87b1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\97f5539e-92d5-11e9-87b1-000d3a74c7de.jpg",
+      "timestamp": "2013-05-18 05:08:48",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "999652e0-92d5-11e9-b343-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\999652e0-92d5-11e9-b343-000d3a74c7de.jpg",
+      "timestamp": "2013-06-01 07:24:22",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "9a57ac87-92d5-11e9-bc74-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\9a57ac87-92d5-11e9-bc74-000d3a74c7de.jpg",
+      "timestamp": "2013-07-22 12:30:28",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "a1377076-92d5-11e9-b900-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\a1377076-92d5-11e9-b900-000d3a74c7de.jpg",
+      "timestamp": "2013-06-01 21:33:30",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a1f20e8a-92d5-11e9-860b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\a1f20e8a-92d5-11e9-860b-000d3a74c7de.jpg",
+      "timestamp": "2013-06-22 01:44:12",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "bc04b3c2-92d5-11e9-9edf-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\bc04b3c2-92d5-11e9-9edf-000d3a74c7de.jpg",
+      "timestamp": "2008-03-06 16:38:01",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "c7a3124e-92d4-11e9-a25a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\c7a3124e-92d4-11e9-a25a-000d3a74c7de.jpg",
+      "timestamp": "2006-11-08 09:06:42",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "cd67e9fa-92d4-11e9-a1a8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\cd67e9fa-92d4-11e9-a1a8-000d3a74c7de.jpg",
+      "timestamp": "2010-11-30 16:46:29",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d09911a7-92d4-11e9-bcfb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\d09911a7-92d4-11e9-bcfb-000d3a74c7de.jpg",
+      "timestamp": "2010-11-20 14:54:32",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d6a8bcbe-92d4-11e9-a317-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\d6a8bcbe-92d4-11e9-a317-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "d6b5b641-92d4-11e9-b064-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\d6b5b641-92d4-11e9-b064-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "d711e020-92d4-11e9-9d79-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\d711e020-92d4-11e9-9d79-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "d80035f2-92d4-11e9-8c5b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\d80035f2-92d4-11e9-8c5b-000d3a74c7de.jpg",
+      "timestamp": "2012-09-05 22:57:25",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "da4b3782-92d4-11e9-a596-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\da4b3782-92d4-11e9-a596-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "db483504-92d4-11e9-99ba-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\db483504-92d4-11e9-99ba-000d3a74c7de.jpg",
+      "timestamp": "2012-09-17 05:57:44",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "dd3b799c-92d4-11e9-85f3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\dd3b799c-92d4-11e9-85f3-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 04:32:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "dedfeb6c-92d4-11e9-9711-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\dedfeb6c-92d4-11e9-9711-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e4364665-92d4-11e9-a846-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\e4364665-92d4-11e9-a846-000d3a74c7de.jpg",
+      "timestamp": "2012-10-11 07:01:15",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "e7679d34-92d4-11e9-9d37-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\e7679d34-92d4-11e9-9d37-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e979b470-92d4-11e9-af97-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\e979b470-92d4-11e9-af97-000d3a74c7de.jpg",
+      "timestamp": "2012-10-24 19:45:55",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ed3d71d8-92d4-11e9-9f67-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\ed3d71d8-92d4-11e9-9f67-000d3a74c7de.jpg",
+      "timestamp": "2011-07-01 02:15:48",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ed54f124-92d4-11e9-8e90-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\ed54f124-92d4-11e9-8e90-000d3a74c7de.jpg",
+      "timestamp": "2011-06-26 05:51:28",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ef3aeff8-92d4-11e9-acda-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\ef3aeff8-92d4-11e9-acda-000d3a74c7de.jpg",
+      "timestamp": "2011-05-07 13:07:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "ef707e46-92d4-11e9-82a3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\ef707e46-92d4-11e9-82a3-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "ef9e6bfc-92d4-11e9-b893-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\ef9e6bfc-92d4-11e9-b893-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f3efc49a-92d4-11e9-927d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\f3efc49a-92d4-11e9-927d-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f57245f0-92d4-11e9-ab49-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\f57245f0-92d4-11e9-ab49-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f823aa8e-92d4-11e9-b217-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\f823aa8e-92d4-11e9-b217-000d3a74c7de.jpg",
+      "timestamp": "2011-10-22 23:21:17",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "f987a73d-92d4-11e9-984b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\f987a73d-92d4-11e9-984b-000d3a74c7de.jpg",
+      "timestamp": "2011-11-06 21:24:30",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "f99eb2b6-92d4-11e9-9dd5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\f99eb2b6-92d4-11e9-9dd5-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 03:28:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ff06185c-92d4-11e9-aa57-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\test\\ff06185c-92d4-11e9-aa57-000d3a74c7de.jpg",
+      "timestamp": "2011-10-21 04:34:06",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0148e808-92d5-11e9-8bf2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0148e808-92d5-11e9-8bf2-000d3a74c7de.jpg",
+      "timestamp": "2012-08-01 09:46:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "01490f5c-92d5-11e9-afd4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\01490f5c-92d5-11e9-afd4-000d3a74c7de.jpg",
+      "timestamp": "2012-08-01 09:46:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "01c62e70-92d5-11e9-a259-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\01c62e70-92d5-11e9-a259-000d3a74c7de.jpg",
+      "timestamp": "2012-08-03 01:00:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "01e061d6-92d5-11e9-b26c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\01e061d6-92d5-11e9-b26c-000d3a74c7de.jpg",
+      "timestamp": "2012-08-03 17:42:14",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "020afdee-92d5-11e9-b11a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\020afdee-92d5-11e9-b11a-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "02f3cd69-92d5-11e9-b075-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\02f3cd69-92d5-11e9-b075-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "03362de3-92d5-11e9-b9e1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\03362de3-92d5-11e9-b9e1-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "03d6658d-92d5-11e9-ae06-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\03d6658d-92d5-11e9-ae06-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 02:20:28",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "03d6b395-92d5-11e9-be25-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\03d6b395-92d5-11e9-be25-000d3a74c7de.jpg",
+      "timestamp": "2012-08-10 05:51:04",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "04602eae-92d5-11e9-946f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\04602eae-92d5-11e9-946f-000d3a74c7de.jpg",
+      "timestamp": "2012-08-11 12:07:08",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "057fcf6c-92d5-11e9-a131-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\057fcf6c-92d5-11e9-a131-000d3a74c7de.jpg",
+      "timestamp": "2012-08-15 06:04:16",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "05ceb2d9-92d5-11e9-818f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\05ceb2d9-92d5-11e9-818f-000d3a74c7de.jpg",
+      "timestamp": "2012-08-15 10:24:39",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "06130ee0-92d5-11e9-912d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\06130ee0-92d5-11e9-912d-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "0633dd3f-92d5-11e9-a71f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0633dd3f-92d5-11e9-a71f-000d3a74c7de.jpg",
+      "timestamp": "2012-08-17 06:58:14",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "06a39258-92d5-11e9-8238-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\06a39258-92d5-11e9-8238-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "0723beb4-92d5-11e9-9f3b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0723beb4-92d5-11e9-9f3b-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "083c821e-92d5-11e9-b03f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\083c821e-92d5-11e9-b03f-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 20:36:14",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "09a6ee1e-92d5-11e9-b803-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\09a6ee1e-92d5-11e9-b803-000d3a74c7de.jpg",
+      "timestamp": "2009-07-06 13:05:31",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "09d293b2-92d5-11e9-8b08-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\09d293b2-92d5-11e9-8b08-000d3a74c7de.jpg",
+      "timestamp": "2011-05-09 10:03:14",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "0a212747-92d5-11e9-abba-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0a212747-92d5-11e9-abba-000d3a74c7de.jpg",
+      "timestamp": "2011-10-14 14:27:57",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0ab2ff32-92d5-11e9-af51-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0ab2ff32-92d5-11e9-af51-000d3a74c7de.jpg",
+      "timestamp": "2011-10-04 14:18:56",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0c8f87b6-92d5-11e9-9e81-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0c8f87b6-92d5-11e9-9e81-000d3a74c7de.jpg",
+      "timestamp": "2010-09-24 02:30:51",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0cf2dcf6-92d5-11e9-ab4d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0cf2dcf6-92d5-11e9-ab4d-000d3a74c7de.jpg",
+      "timestamp": "2010-09-16 23:47:31",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0db4f4e8-92d5-11e9-815a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0db4f4e8-92d5-11e9-815a-000d3a74c7de.jpg",
+      "timestamp": "2010-09-17 19:28:57",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0db9fda6-92d5-11e9-9fc4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0db9fda6-92d5-11e9-9fc4-000d3a74c7de.jpg",
+      "timestamp": "2010-10-05 05:25:18",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0dc60bb5-92d5-11e9-a611-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0dc60bb5-92d5-11e9-a611-000d3a74c7de.jpg",
+      "timestamp": "2010-09-29 08:11:33",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "0e0846be-92d5-11e9-8922-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0e0846be-92d5-11e9-8922-000d3a74c7de.jpg",
+      "timestamp": "2010-09-25 10:26:07",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "0ec7c48f-92d5-11e9-b9a9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0ec7c48f-92d5-11e9-b9a9-000d3a74c7de.jpg",
+      "timestamp": "2012-02-25 10:14:18",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "0ef73932-92d5-11e9-83a8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\0ef73932-92d5-11e9-83a8-000d3a74c7de.jpg",
+      "timestamp": "2013-02-02 18:57:40",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "114f80ac-92d5-11e9-ab9d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\114f80ac-92d5-11e9-ab9d-000d3a74c7de.jpg",
+      "timestamp": "2012-02-09 21:33:10",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1156faf1-92d5-11e9-98ec-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1156faf1-92d5-11e9-98ec-000d3a74c7de.jpg",
+      "timestamp": "2012-02-16 19:52:32",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "115ffb31-92d5-11e9-8e1b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\115ffb31-92d5-11e9-8e1b-000d3a74c7de.jpg",
+      "timestamp": "2012-02-22 00:37:16",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1160e5f2-92d5-11e9-953b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1160e5f2-92d5-11e9-953b-000d3a74c7de.jpg",
+      "timestamp": "2012-02-23 15:08:19",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "117b9985-92d5-11e9-ac30-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\117b9985-92d5-11e9-ac30-000d3a74c7de.jpg",
+      "timestamp": "2012-02-08 22:57:27",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "11a5b748-92d5-11e9-a20e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\11a5b748-92d5-11e9-a20e-000d3a74c7de.jpg",
+      "timestamp": "2012-02-22 06:47:20",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "16d63403-92d5-11e9-9660-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\16d63403-92d5-11e9-9660-000d3a74c7de.jpg",
+      "timestamp": "2012-02-25 23:54:31",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "16e660ba-92d5-11e9-a876-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\16e660ba-92d5-11e9-a876-000d3a74c7de.jpg",
+      "timestamp": "2012-02-09 02:08:23",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1972fb36-92d5-11e9-ae0f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1972fb36-92d5-11e9-ae0f-000d3a74c7de.jpg",
+      "timestamp": "2012-02-13 13:31:05",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1981eef8-92d5-11e9-8c96-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1981eef8-92d5-11e9-8c96-000d3a74c7de.jpg",
+      "timestamp": "2012-02-21 07:06:55",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1982d946-92d5-11e9-b8ef-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1982d946-92d5-11e9-b8ef-000d3a74c7de.jpg",
+      "timestamp": "2012-02-22 16:24:23",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1985bf7d-92d5-11e9-9aad-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1985bf7d-92d5-11e9-9aad-000d3a74c7de.jpg",
+      "timestamp": "2012-02-23 11:05:19",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "19917f46-92d5-11e9-8233-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\19917f46-92d5-11e9-8233-000d3a74c7de.jpg",
+      "timestamp": "2012-02-27 10:28:41",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1a6a052d-92d5-11e9-887b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1a6a052d-92d5-11e9-887b-000d3a74c7de.jpg",
+      "timestamp": "2011-08-02 02:10:37",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1b99aa37-92d5-11e9-9543-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1b99aa37-92d5-11e9-9543-000d3a74c7de.jpg",
+      "timestamp": "2011-07-27 11:57:04",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1c44421e-92d5-11e9-bcb9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1c44421e-92d5-11e9-bcb9-000d3a74c7de.jpg",
+      "timestamp": "2011-08-01 07:22:00",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1c5d2146-92d5-11e9-bc33-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1c5d2146-92d5-11e9-bc33-000d3a74c7de.jpg",
+      "timestamp": "2010-07-28 16:58:33",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1cafd572-92d5-11e9-ac06-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1cafd572-92d5-11e9-ac06-000d3a74c7de.jpg",
+      "timestamp": "2011-07-27 08:58:39",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1cff7b68-92d5-11e9-a759-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1cff7b68-92d5-11e9-a759-000d3a74c7de.jpg",
+      "timestamp": "2011-08-03 16:58:52",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1d05bcf8-92d5-11e9-9751-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d05bcf8-92d5-11e9-9751-000d3a74c7de.jpg",
+      "timestamp": "2011-08-10 08:44:56",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1d1c523d-92d5-11e9-87f1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d1c523d-92d5-11e9-87f1-000d3a74c7de.jpg",
+      "timestamp": "2011-08-17 15:27:18",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1d2049d8-92d5-11e9-84f4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d2049d8-92d5-11e9-84f4-000d3a74c7de.jpg",
+      "timestamp": "2011-07-24 16:50:48",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1d3dbcea-92d5-11e9-8dc6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d3dbcea-92d5-11e9-8dc6-000d3a74c7de.jpg",
+      "timestamp": "2011-08-15 08:20:14",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1d444d0e-92d5-11e9-9f6f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d444d0e-92d5-11e9-9f6f-000d3a74c7de.jpg",
+      "timestamp": "2011-08-02 06:18:42",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1d55b235-92d5-11e9-b29a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d55b235-92d5-11e9-b29a-000d3a74c7de.jpg",
+      "timestamp": "2011-08-04 19:12:32",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1d5def3d-92d5-11e9-9a89-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d5def3d-92d5-11e9-9a89-000d3a74c7de.jpg",
+      "timestamp": "2010-06-24 12:10:02",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1d6060a9-92d5-11e9-99bf-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d6060a9-92d5-11e9-99bf-000d3a74c7de.jpg",
+      "timestamp": "2010-06-25 21:26:36",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1d628310-92d5-11e9-b296-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\1d628310-92d5-11e9-b296-000d3a74c7de.jpg",
+      "timestamp": "2010-07-03 10:42:57",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "233aa2de-92d5-11e9-83bb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\233aa2de-92d5-11e9-83bb-000d3a74c7de.jpg",
+      "timestamp": "2011-07-10 21:18:01",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "235d942e-92d5-11e9-948d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\235d942e-92d5-11e9-948d-000d3a74c7de.jpg",
+      "timestamp": "2011-08-02 14:37:21",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "23b4c1e0-92d5-11e9-9df5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\23b4c1e0-92d5-11e9-9df5-000d3a74c7de.jpg",
+      "timestamp": "2011-07-12 03:01:31",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "23c4c76e-92d5-11e9-ac70-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\23c4c76e-92d5-11e9-ac70-000d3a74c7de.jpg",
+      "timestamp": "2011-06-28 17:12:49",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "27a954c2-92d5-11e9-a4d6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\27a954c2-92d5-11e9-a4d6-000d3a74c7de.jpg",
+      "timestamp": "2011-07-04 16:18:52",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "27ecc666-92d5-11e9-8b2a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\27ecc666-92d5-11e9-8b2a-000d3a74c7de.jpg",
+      "timestamp": "2011-06-28 14:02:16",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "29a2564a-92d5-11e9-a7ec-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\29a2564a-92d5-11e9-a7ec-000d3a74c7de.jpg",
+      "timestamp": "2011-01-15 11:36:56",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "29a27d58-92d5-11e9-a21f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\29a27d58-92d5-11e9-a21f-000d3a74c7de.jpg",
+      "timestamp": "2011-01-15 11:38:51",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "2dcb6858-92d5-11e9-80f1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\2dcb6858-92d5-11e9-80f1-000d3a74c7de.jpg",
+      "timestamp": "2011-01-26 10:06:34",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "2e769ab3-92d5-11e9-a2b8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\2e769ab3-92d5-11e9-a2b8-000d3a74c7de.jpg",
+      "timestamp": "2011-01-21 14:43:39",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "2e9ebc8c-92d5-11e9-a158-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\2e9ebc8c-92d5-11e9-a158-000d3a74c7de.jpg",
+      "timestamp": "2011-01-24 10:34:53",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "2f4f20a0-92d5-11e9-9522-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\2f4f20a0-92d5-11e9-9522-000d3a74c7de.jpg",
+      "timestamp": "2011-01-14 13:34:37",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "30c0b1cc-92d5-11e9-b729-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\30c0b1cc-92d5-11e9-b729-000d3a74c7de.jpg",
+      "timestamp": "2011-02-13 15:23:29",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "31114320-92d5-11e9-ac1a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\31114320-92d5-11e9-ac1a-000d3a74c7de.jpg",
+      "timestamp": "2011-02-18 02:55:38",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "318b0720-92d5-11e9-9c68-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\318b0720-92d5-11e9-9c68-000d3a74c7de.jpg",
+      "timestamp": "2011-02-09 07:48:16",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "3243cf61-92d5-11e9-a7b3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\3243cf61-92d5-11e9-a7b3-000d3a74c7de.jpg",
+      "timestamp": "2011-02-15 05:01:49",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "325163dc-92d5-11e9-83b9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\325163dc-92d5-11e9-83b9-000d3a74c7de.jpg",
+      "timestamp": "2011-02-10 08:02:57",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "34e6f12c-92d5-11e9-9025-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\34e6f12c-92d5-11e9-9025-000d3a74c7de.jpg",
+      "timestamp": "2008-02-06 15:50:45",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "36bd5fc4-92d5-11e9-883b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\36bd5fc4-92d5-11e9-883b-000d3a74c7de.jpg",
+      "timestamp": "2008-06-24 10:29:07",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "37d9cd2e-92d5-11e9-947b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\37d9cd2e-92d5-11e9-947b-000d3a74c7de.jpg",
+      "timestamp": "2010-03-17 08:12:08",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "37ddc449-92d5-11e9-9220-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\37ddc449-92d5-11e9-9220-000d3a74c7de.jpg",
+      "timestamp": "2010-03-11 19:56:57",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "382f177a-92d5-11e9-a771-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\382f177a-92d5-11e9-a771-000d3a74c7de.jpg",
+      "timestamp": "2010-02-23 06:46:26",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "385b589d-92d5-11e9-9458-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\385b589d-92d5-11e9-9458-000d3a74c7de.jpg",
+      "timestamp": "2010-03-11 08:32:37",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "38625e4a-92d5-11e9-94e6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\38625e4a-92d5-11e9-94e6-000d3a74c7de.jpg",
+      "timestamp": "2010-03-14 19:54:48",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "3b9464fa-92d5-11e9-bea6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\3b9464fa-92d5-11e9-bea6-000d3a74c7de.jpg",
+      "timestamp": "2010-03-01 16:09:32",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "3ba81467-92d5-11e9-a2a1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\3ba81467-92d5-11e9-a2a1-000d3a74c7de.jpg",
+      "timestamp": "2010-02-13 10:29:41",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "3bb2262a-92d5-11e9-b6ba-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\3bb2262a-92d5-11e9-b6ba-000d3a74c7de.jpg",
+      "timestamp": "2010-02-12 01:59:20",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "3c00bbbb-92d5-11e9-ae80-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\3c00bbbb-92d5-11e9-ae80-000d3a74c7de.jpg",
+      "timestamp": "2010-02-03 20:39:11",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "41b80ed7-92d5-11e9-98fc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\41b80ed7-92d5-11e9-98fc-000d3a74c7de.jpg",
+      "timestamp": "2013-02-05 10:59:45",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "41c8b0ae-92d5-11e9-9bdb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\41c8b0ae-92d5-11e9-9bdb-000d3a74c7de.jpg",
+      "timestamp": "2013-02-01 12:46:47",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "41e7f889-92d5-11e9-be14-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\41e7f889-92d5-11e9-be14-000d3a74c7de.jpg",
+      "timestamp": "2013-01-23 03:21:23",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "41e81f9e-92d5-11e9-98d4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\41e81f9e-92d5-11e9-98d4-000d3a74c7de.jpg",
+      "timestamp": "2013-02-05 11:21:33",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "42442224-92d5-11e9-92e1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\42442224-92d5-11e9-92e1-000d3a74c7de.jpg",
+      "timestamp": "2013-02-04 20:58:25",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4352fa4c-92d5-11e9-95e0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4352fa4c-92d5-11e9-95e0-000d3a74c7de.jpg",
+      "timestamp": "2013-01-23 17:37:08",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "44ac6da4-92d5-11e9-895e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\44ac6da4-92d5-11e9-895e-000d3a74c7de.jpg",
+      "timestamp": "2013-01-29 18:43:11",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "44feab3c-92d5-11e9-a0e0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\44feab3c-92d5-11e9-a0e0-000d3a74c7de.jpg",
+      "timestamp": "2013-02-27 09:22:22",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "45000a3a-92d5-11e9-a7d0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\45000a3a-92d5-11e9-a7d0-000d3a74c7de.jpg",
+      "timestamp": "2013-02-27 09:36:36",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4502c830-92d5-11e9-ad71-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4502c830-92d5-11e9-ad71-000d3a74c7de.jpg",
+      "timestamp": "2013-02-28 04:11:23",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "472644dd-92d5-11e9-b91a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\472644dd-92d5-11e9-b91a-000d3a74c7de.jpg",
+      "timestamp": "2013-02-28 16:58:07",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "481537f7-92d5-11e9-b951-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\481537f7-92d5-11e9-b951-000d3a74c7de.jpg",
+      "timestamp": "2013-02-21 12:10:50",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "48158676-92d5-11e9-86d5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\48158676-92d5-11e9-86d5-000d3a74c7de.jpg",
+      "timestamp": "2013-02-21 12:10:58",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "493241a6-92d5-11e9-a07f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\493241a6-92d5-11e9-a07f-000d3a74c7de.jpg",
+      "timestamp": "2013-03-10 06:11:24",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4c6ff6c3-92d5-11e9-85ee-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4c6ff6c3-92d5-11e9-85ee-000d3a74c7de.jpg",
+      "timestamp": "2009-07-25 23:35:32",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4ca51ae8-92d5-11e9-95b2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4ca51ae8-92d5-11e9-95b2-000d3a74c7de.jpg",
+      "timestamp": "2009-07-18 19:05:19",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4d17da3a-92d5-11e9-adbb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4d17da3a-92d5-11e9-adbb-000d3a74c7de.jpg",
+      "timestamp": "2009-07-22 15:07:53",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4d330316-92d5-11e9-b958-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4d330316-92d5-11e9-b958-000d3a74c7de.jpg",
+      "timestamp": "2009-07-15 19:31:53",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4d3a5612-92d5-11e9-9e7c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4d3a5612-92d5-11e9-9e7c-000d3a74c7de.jpg",
+      "timestamp": "2009-07-21 23:15:44",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4d987d60-92d5-11e9-8c3b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4d987d60-92d5-11e9-8c3b-000d3a74c7de.jpg",
+      "timestamp": "2009-08-06 23:48:45",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4db7c371-92d5-11e9-8074-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4db7c371-92d5-11e9-8074-000d3a74c7de.jpg",
+      "timestamp": "2008-08-18 13:39:06",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4dc9c4e4-92d5-11e9-9fc8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4dc9c4e4-92d5-11e9-9fc8-000d3a74c7de.jpg",
+      "timestamp": "2008-08-23 19:21:48",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4ddd9c8e-92d5-11e9-bc03-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4ddd9c8e-92d5-11e9-bc03-000d3a74c7de.jpg",
+      "timestamp": "2009-08-13 12:46:13",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4de8720d-92d5-11e9-8a04-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4de8720d-92d5-11e9-8a04-000d3a74c7de.jpg",
+      "timestamp": "2009-08-06 17:15:14",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4e154cbd-92d5-11e9-8395-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e154cbd-92d5-11e9-8395-000d3a74c7de.jpg",
+      "timestamp": "2009-08-22 06:54:22",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e24dd24-92d5-11e9-8dd3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e24dd24-92d5-11e9-8dd3-000d3a74c7de.jpg",
+      "timestamp": "2009-08-04 19:15:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e28d53a-92d5-11e9-b915-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e28d53a-92d5-11e9-b915-000d3a74c7de.jpg",
+      "timestamp": "2009-08-05 20:07:12",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e2e5495-92d5-11e9-9b13-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e2e5495-92d5-11e9-9b13-000d3a74c7de.jpg",
+      "timestamp": "2009-08-08 19:49:21",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e2e7bc6-92d5-11e9-a47e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e2e7bc6-92d5-11e9-a47e-000d3a74c7de.jpg",
+      "timestamp": "2009-08-08 19:58:53",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e33d2cc-92d5-11e9-ae10-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e33d2cc-92d5-11e9-ae10-000d3a74c7de.jpg",
+      "timestamp": "2009-08-10 10:49:33",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e37efec-92d5-11e9-beec-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e37efec-92d5-11e9-beec-000d3a74c7de.jpg",
+      "timestamp": "2009-08-11 17:49:01",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4e450f76-92d5-11e9-9444-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e450f76-92d5-11e9-9444-000d3a74c7de.jpg",
+      "timestamp": "2009-08-15 09:31:02",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e5b0a06-92d5-11e9-ba30-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e5b0a06-92d5-11e9-ba30-000d3a74c7de.jpg",
+      "timestamp": "2009-08-18 21:27:35",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e612304-92d5-11e9-9186-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e612304-92d5-11e9-9186-000d3a74c7de.jpg",
+      "timestamp": "2009-08-19 19:15:12",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e6345ee-92d5-11e9-bf5c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e6345ee-92d5-11e9-bf5c-000d3a74c7de.jpg",
+      "timestamp": "2009-08-21 00:18:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e708c30-92d5-11e9-9c1c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e708c30-92d5-11e9-9c1c-000d3a74c7de.jpg",
+      "timestamp": "2009-08-07 08:40:08",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e7260e7-92d5-11e9-ab76-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e7260e7-92d5-11e9-ab76-000d3a74c7de.jpg",
+      "timestamp": "2009-08-07 23:17:06",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e734b50-92d5-11e9-8e31-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e734b50-92d5-11e9-8e31-000d3a74c7de.jpg",
+      "timestamp": "2009-08-08 21:29:08",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e768115-92d5-11e9-9417-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e768115-92d5-11e9-9417-000d3a74c7de.jpg",
+      "timestamp": "2009-08-10 11:31:55",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e785625-92d5-11e9-86bf-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e785625-92d5-11e9-86bf-000d3a74c7de.jpg",
+      "timestamp": "2009-08-10 13:15:08",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4e81a4e7-92d5-11e9-96f5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4e81a4e7-92d5-11e9-96f5-000d3a74c7de.jpg",
+      "timestamp": "2009-08-19 22:22:35",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4f2055c7-92d5-11e9-bb36-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4f2055c7-92d5-11e9-bb36-000d3a74c7de.jpg",
+      "timestamp": "2009-08-31 20:45:47",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4f3403bc-92d5-11e9-933f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4f3403bc-92d5-11e9-933f-000d3a74c7de.jpg",
+      "timestamp": "2009-09-03 08:47:00",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4f61ca08-92d5-11e9-9698-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4f61ca08-92d5-11e9-9698-000d3a74c7de.jpg",
+      "timestamp": "2009-08-31 10:18:54",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4f6b1a50-92d5-11e9-ab32-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4f6b1a50-92d5-11e9-ab32-000d3a74c7de.jpg",
+      "timestamp": "2009-09-21 13:54:14",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4f86de3a-92d5-11e9-8fcb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4f86de3a-92d5-11e9-8fcb-000d3a74c7de.jpg",
+      "timestamp": "2009-09-21 09:36:00",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4f8a87f6-92d5-11e9-a140-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4f8a87f6-92d5-11e9-a140-000d3a74c7de.jpg",
+      "timestamp": "2009-09-21 09:36:23",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4fa53d2c-92d5-11e9-9d55-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4fa53d2c-92d5-11e9-9d55-000d3a74c7de.jpg",
+      "timestamp": "2009-09-14 03:16:04",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4fa5b261-92d5-11e9-8388-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4fa5b261-92d5-11e9-8388-000d3a74c7de.jpg",
+      "timestamp": "2009-09-14 03:18:35",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4fa95bd9-92d5-11e9-a4fb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4fa95bd9-92d5-11e9-a4fb-000d3a74c7de.jpg",
+      "timestamp": "2009-09-10 21:28:43",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4ff1d536-92d5-11e9-911f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\4ff1d536-92d5-11e9-911f-000d3a74c7de.jpg",
+      "timestamp": "2009-09-19 09:08:59",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "50247dd8-92d5-11e9-aae9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\50247dd8-92d5-11e9-aae9-000d3a74c7de.jpg",
+      "timestamp": "2009-10-03 18:04:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "504833dc-92d5-11e9-9f48-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\504833dc-92d5-11e9-9f48-000d3a74c7de.jpg",
+      "timestamp": "2009-10-13 05:27:32",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "50d6db06-92d5-11e9-b4c2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\50d6db06-92d5-11e9-b4c2-000d3a74c7de.jpg",
+      "timestamp": "2009-09-30 21:33:46",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "50d79e1e-92d5-11e9-9d79-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\50d79e1e-92d5-11e9-9d79-000d3a74c7de.jpg",
+      "timestamp": "2009-10-01 08:53:17",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "511b8343-92d5-11e9-8224-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\511b8343-92d5-11e9-8224-000d3a74c7de.jpg",
+      "timestamp": "2009-10-08 17:22:38",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "5223cd0b-92d5-11e9-ac01-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5223cd0b-92d5-11e9-ac01-000d3a74c7de.jpg",
+      "timestamp": "2012-05-29 01:43:26",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "54d8fe1e-92d5-11e9-b6ce-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\54d8fe1e-92d5-11e9-b6ce-000d3a74c7de.jpg",
+      "timestamp": "2012-06-19 16:21:30",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "55feb922-92d5-11e9-8758-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\55feb922-92d5-11e9-8758-000d3a74c7de.jpg",
+      "timestamp": "2012-06-14 20:36:29",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5602d7d4-92d5-11e9-bb95-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5602d7d4-92d5-11e9-bb95-000d3a74c7de.jpg",
+      "timestamp": "2012-06-18 02:37:29",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5610e192-92d5-11e9-96b1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5610e192-92d5-11e9-96b1-000d3a74c7de.jpg",
+      "timestamp": "2012-05-25 01:07:01",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "565a6dba-92d5-11e9-b3c9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\565a6dba-92d5-11e9-b3c9-000d3a74c7de.jpg",
+      "timestamp": "2012-06-09 20:57:34",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "56dcbd16-92d5-11e9-9e2e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\56dcbd16-92d5-11e9-9e2e-000d3a74c7de.jpg",
+      "timestamp": "2012-06-30 19:43:08",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "58919420-92d5-11e9-b8c1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\58919420-92d5-11e9-b8c1-000d3a74c7de.jpg",
+      "timestamp": "2012-07-08 04:30:22",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5d3cf8e0-92d5-11e9-b0cd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5d3cf8e0-92d5-11e9-b0cd-000d3a74c7de.jpg",
+      "timestamp": "2015-02-09 02:58:17",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5e39a85f-92d5-11e9-a682-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5e39a85f-92d5-11e9-a682-000d3a74c7de.jpg",
+      "timestamp": "2015-02-10 18:14:50",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5e6c785c-92d5-11e9-9da2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5e6c785c-92d5-11e9-9da2-000d3a74c7de.jpg",
+      "timestamp": "2015-02-16 10:27:26",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "5ed1ca18-92d5-11e9-a56b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\5ed1ca18-92d5-11e9-a56b-000d3a74c7de.jpg",
+      "timestamp": "2015-02-22 16:00:37",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "719211b4-92d5-11e9-9e21-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\719211b4-92d5-11e9-9e21-000d3a74c7de.jpg",
+      "timestamp": "2012-07-07 06:47:16",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "719f3115-92d5-11e9-8164-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\719f3115-92d5-11e9-8164-000d3a74c7de.jpg",
+      "timestamp": "2013-04-30 20:03:31",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "87fbfdc9-92d5-11e9-938f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\87fbfdc9-92d5-11e9-938f-000d3a74c7de.jpg",
+      "timestamp": "2013-05-06 04:03:37",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8814423e-92d5-11e9-955b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8814423e-92d5-11e9-955b-000d3a74c7de.jpg",
+      "timestamp": "2013-05-28 23:24:19",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "88181c3a-92d5-11e9-89f9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\88181c3a-92d5-11e9-89f9-000d3a74c7de.jpg",
+      "timestamp": "2013-05-31 21:27:36",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "88967310-92d5-11e9-bfd8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\88967310-92d5-11e9-bfd8-000d3a74c7de.jpg",
+      "timestamp": "2013-07-13 07:33:01",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "88a1e504-92d5-11e9-bf27-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\88a1e504-92d5-11e9-bf27-000d3a74c7de.jpg",
+      "timestamp": "2013-04-12 21:18:23",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "89256cd9-92d5-11e9-af62-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\89256cd9-92d5-11e9-af62-000d3a74c7de.jpg",
+      "timestamp": "2013-04-29 17:39:42",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "89d7093e-92d5-11e9-a310-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\89d7093e-92d5-11e9-a310-000d3a74c7de.jpg",
+      "timestamp": "2013-06-24 04:16:32",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "89f7898a-92d5-11e9-a80b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\89f7898a-92d5-11e9-a80b-000d3a74c7de.jpg",
+      "timestamp": "2013-07-25 13:21:03",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "8ad873b2-92d5-11e9-ab6b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8ad873b2-92d5-11e9-ab6b-000d3a74c7de.jpg",
+      "timestamp": "2013-06-03 16:11:06",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "8b068894-92d5-11e9-85f2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8b068894-92d5-11e9-85f2-000d3a74c7de.jpg",
+      "timestamp": "2013-07-31 19:16:40",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8b44f13c-92d5-11e9-ae4c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8b44f13c-92d5-11e9-ae4c-000d3a74c7de.jpg",
+      "timestamp": "2013-06-06 15:45:27",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "8b7c3252-92d5-11e9-be23-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8b7c3252-92d5-11e9-be23-000d3a74c7de.jpg",
+      "timestamp": "2013-07-23 07:32:23",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "8ba6f8b0-92d5-11e9-8ae7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8ba6f8b0-92d5-11e9-8ae7-000d3a74c7de.jpg",
+      "timestamp": "2013-05-31 08:25:36",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "8c6edbbc-92d5-11e9-9640-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8c6edbbc-92d5-11e9-9640-000d3a74c7de.jpg",
+      "timestamp": "2013-06-06 00:00:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8cece55e-92d5-11e9-9917-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8cece55e-92d5-11e9-9917-000d3a74c7de.jpg",
+      "timestamp": "2013-07-08 03:26:39",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8d8fdbe0-92d5-11e9-b490-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8d8fdbe0-92d5-11e9-b490-000d3a74c7de.jpg",
+      "timestamp": "2013-05-26 22:35:01",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8d9002ef-92d5-11e9-979f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8d9002ef-92d5-11e9-979f-000d3a74c7de.jpg",
+      "timestamp": "2013-05-26 22:35:04",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8da25278-92d5-11e9-836e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8da25278-92d5-11e9-836e-000d3a74c7de.jpg",
+      "timestamp": "2013-06-06 11:13:52",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "8eccc918-92d5-11e9-8c9d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8eccc918-92d5-11e9-8c9d-000d3a74c7de.jpg",
+      "timestamp": "2013-04-20 12:29:14",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "8f70f892-92d5-11e9-a4e3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f70f892-92d5-11e9-a4e3-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 19:30:00",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f71c1fa-92d5-11e9-80a0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f71c1fa-92d5-11e9-80a0-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 19:30:33",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f7341fa-92d5-11e9-aeb7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f7341fa-92d5-11e9-aeb7-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 19:32:45",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f7eb3a6-92d5-11e9-ad9b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f7eb3a6-92d5-11e9-ad9b-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 20:20:58",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f7fec66-92d5-11e9-9d96-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f7fec66-92d5-11e9-9d96-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 20:21:49",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f85df8c-92d5-11e9-8927-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f85df8c-92d5-11e9-8927-000d3a74c7de.jpg",
+      "timestamp": "2013-07-12 20:18:03",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f9cc347-92d5-11e9-b3f8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8f9cc347-92d5-11e9-b3f8-000d3a74c7de.jpg",
+      "timestamp": "2013-06-02 22:21:35",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8fe034a3-92d5-11e9-8d19-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\8fe034a3-92d5-11e9-8d19-000d3a74c7de.jpg",
+      "timestamp": "2013-07-10 22:56:25",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "90511eea-92d5-11e9-9af3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\90511eea-92d5-11e9-9af3-000d3a74c7de.jpg",
+      "timestamp": "2013-05-08 17:26:09",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "90745e48-92d5-11e9-b1a0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\90745e48-92d5-11e9-b1a0-000d3a74c7de.jpg",
+      "timestamp": "2013-05-23 04:37:21",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9169bc43-92d5-11e9-b248-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9169bc43-92d5-11e9-b248-000d3a74c7de.jpg",
+      "timestamp": "2013-06-04 01:24:26",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9260c561-92d5-11e9-ad82-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9260c561-92d5-11e9-ad82-000d3a74c7de.jpg",
+      "timestamp": "2013-05-16 00:03:30",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "926d966e-92d5-11e9-80d1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\926d966e-92d5-11e9-80d1-000d3a74c7de.jpg",
+      "timestamp": "2013-05-28 22:23:33",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "92a59bd9-92d5-11e9-a8de-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\92a59bd9-92d5-11e9-a8de-000d3a74c7de.jpg",
+      "timestamp": "2013-05-07 04:11:13",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "92eb57b4-92d5-11e9-a099-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\92eb57b4-92d5-11e9-a099-000d3a74c7de.jpg",
+      "timestamp": "2013-04-27 20:26:37",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9457b8a9-92d5-11e9-88fb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9457b8a9-92d5-11e9-88fb-000d3a74c7de.jpg",
+      "timestamp": "2013-04-26 19:32:21",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "946b67b6-92d5-11e9-a4f1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\946b67b6-92d5-11e9-a4f1-000d3a74c7de.jpg",
+      "timestamp": "2013-06-14 04:36:30",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "94899e2c-92d5-11e9-bd20-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\94899e2c-92d5-11e9-bd20-000d3a74c7de.jpg",
+      "timestamp": "2013-05-02 08:26:52",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "94b47ebe-92d5-11e9-b7a4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\94b47ebe-92d5-11e9-b7a4-000d3a74c7de.jpg",
+      "timestamp": "2013-06-13 03:05:03",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "959baa99-92d5-11e9-9ce4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\959baa99-92d5-11e9-9ce4-000d3a74c7de.jpg",
+      "timestamp": "2013-05-06 21:45:53",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "95a91879-92d5-11e9-abfc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\95a91879-92d5-11e9-abfc-000d3a74c7de.jpg",
+      "timestamp": "2013-06-12 23:40:22",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "95a96791-92d5-11e9-9d3c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\95a96791-92d5-11e9-9d3c-000d3a74c7de.jpg",
+      "timestamp": "2013-06-13 01:50:06",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "95a9b59b-92d5-11e9-83c6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\95a9b59b-92d5-11e9-83c6-000d3a74c7de.jpg",
+      "timestamp": "2013-06-13 01:53:05",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "95f53c02-92d5-11e9-b2dd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\95f53c02-92d5-11e9-b2dd-000d3a74c7de.jpg",
+      "timestamp": "2013-06-27 17:00:28",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "96e652ec-92d5-11e9-8b4e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\96e652ec-92d5-11e9-8b4e-000d3a74c7de.jpg",
+      "timestamp": "2013-05-15 23:10:04",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "974bf402-92d5-11e9-a368-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\974bf402-92d5-11e9-a368-000d3a74c7de.jpg",
+      "timestamp": "2013-04-27 03:42:51",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "98219238-92d5-11e9-8db7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\98219238-92d5-11e9-8db7-000d3a74c7de.jpg",
+      "timestamp": "2013-07-24 17:41:42",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "9822a393-92d5-11e9-9bb0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9822a393-92d5-11e9-9bb0-000d3a74c7de.jpg",
+      "timestamp": "2013-07-24 17:42:04",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "982cb5f8-92d5-11e9-a505-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\982cb5f8-92d5-11e9-a505-000d3a74c7de.jpg",
+      "timestamp": "2013-06-05 00:56:50",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "982d03f2-92d5-11e9-887c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\982d03f2-92d5-11e9-887c-000d3a74c7de.jpg",
+      "timestamp": "2013-06-05 00:56:54",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9869e134-92d5-11e9-b2c0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9869e134-92d5-11e9-b2c0-000d3a74c7de.jpg",
+      "timestamp": "2013-06-29 19:03:02",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "98a19430-92d5-11e9-a2dd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\98a19430-92d5-11e9-a2dd-000d3a74c7de.jpg",
+      "timestamp": "2013-05-03 00:14:31",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "99856351-92d5-11e9-a670-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\99856351-92d5-11e9-a670-000d3a74c7de.jpg",
+      "timestamp": "2013-04-16 06:28:07",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "99a4aa6c-92d5-11e9-ba11-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\99a4aa6c-92d5-11e9-ba11-000d3a74c7de.jpg",
+      "timestamp": "2013-07-03 16:42:49",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "99dea63a-92d5-11e9-9c99-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\99dea63a-92d5-11e9-9c99-000d3a74c7de.jpg",
+      "timestamp": "2013-05-08 19:17:06",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9a464600-92d5-11e9-818f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9a464600-92d5-11e9-818f-000d3a74c7de.jpg",
+      "timestamp": "2013-06-23 01:56:27",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9a57103e-92d5-11e9-aee1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9a57103e-92d5-11e9-aee1-000d3a74c7de.jpg",
+      "timestamp": "2013-07-16 21:25:37",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9a6abfba-92d5-11e9-8350-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9a6abfba-92d5-11e9-8350-000d3a74c7de.jpg",
+      "timestamp": "2013-04-19 03:55:39",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9b9f6106-92d5-11e9-ab32-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9b9f6106-92d5-11e9-ab32-000d3a74c7de.jpg",
+      "timestamp": "2013-04-30 00:54:07",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9c1e845a-92d5-11e9-9ef9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9c1e845a-92d5-11e9-9ef9-000d3a74c7de.jpg",
+      "timestamp": "2013-04-20 12:29:34",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "9c3259e8-92d5-11e9-a9ee-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9c3259e8-92d5-11e9-a9ee-000d3a74c7de.jpg",
+      "timestamp": "2013-05-25 23:25:07",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9c4bfac7-92d5-11e9-811f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9c4bfac7-92d5-11e9-811f-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 22:25:41",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9c4c9708-92d5-11e9-87b0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9c4c9708-92d5-11e9-87b0-000d3a74c7de.jpg",
+      "timestamp": "2013-07-10 03:32:12",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9c56d012-92d5-11e9-9f79-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9c56d012-92d5-11e9-9f79-000d3a74c7de.jpg",
+      "timestamp": "2013-04-23 22:14:33",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9ca20b60-92d5-11e9-99bc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9ca20b60-92d5-11e9-99bc-000d3a74c7de.jpg",
+      "timestamp": "2013-07-16 02:39:30",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9ccbb358-92d5-11e9-a6c0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9ccbb358-92d5-11e9-a6c0-000d3a74c7de.jpg",
+      "timestamp": "2013-05-25 00:42:00",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9e6ba6a8-92d5-11e9-9972-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\9e6ba6a8-92d5-11e9-9972-000d3a74c7de.jpg",
+      "timestamp": "2013-05-22 01:35:22",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a013d874-92d5-11e9-a0c8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a013d874-92d5-11e9-a0c8-000d3a74c7de.jpg",
+      "timestamp": "2013-05-21 04:54:47",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a0a40a66-92d5-11e9-8d52-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a0a40a66-92d5-11e9-8d52-000d3a74c7de.jpg",
+      "timestamp": "2013-06-10 00:00:11",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a0bff6dd-92d5-11e9-b121-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a0bff6dd-92d5-11e9-b121-000d3a74c7de.jpg",
+      "timestamp": "2013-04-12 17:18:42",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "a0c01e1a-92d5-11e9-9ceb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a0c01e1a-92d5-11e9-9ceb-000d3a74c7de.jpg",
+      "timestamp": "2013-04-12 17:18:54",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "a0d5c9d3-92d5-11e9-93e5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a0d5c9d3-92d5-11e9-93e5-000d3a74c7de.jpg",
+      "timestamp": "2013-06-13 22:44:52",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a1343c64-92d5-11e9-a352-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a1343c64-92d5-11e9-a352-000d3a74c7de.jpg",
+      "timestamp": "2013-05-04 02:53:14",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a1845965-92d5-11e9-8548-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a1845965-92d5-11e9-8548-000d3a74c7de.jpg",
+      "timestamp": "2013-06-01 23:08:22",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a190db12-92d5-11e9-970a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a190db12-92d5-11e9-970a-000d3a74c7de.jpg",
+      "timestamp": "2013-07-13 18:54:05",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a1b57a12-92d5-11e9-900d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a1b57a12-92d5-11e9-900d-000d3a74c7de.jpg",
+      "timestamp": "2013-05-02 00:51:05",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a2a160d6-92d5-11e9-9881-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\a2a160d6-92d5-11e9-9881-000d3a74c7de.jpg",
+      "timestamp": "2013-06-20 17:02:23",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "bbdc4410-92d5-11e9-b46a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\bbdc4410-92d5-11e9-b46a-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "bc017f4c-92d5-11e9-9bf4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\bc017f4c-92d5-11e9-9bf4-000d3a74c7de.jpg",
+      "timestamp": "2008-03-31 15:24:47",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "bc66d0ab-92d5-11e9-814a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\bc66d0ab-92d5-11e9-814a-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "bc94235b-92d5-11e9-b2f0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\bc94235b-92d5-11e9-b2f0-000d3a74c7de.jpg",
+      "timestamp": "2014-03-12 14:46:55",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "bd07a67d-92d5-11e9-937b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\bd07a67d-92d5-11e9-937b-000d3a74c7de.jpg",
+      "timestamp": "2014-03-31 03:14:23",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "bd5acf12-92d5-11e9-b5ad-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\bd5acf12-92d5-11e9-b5ad-000d3a74c7de.jpg",
+      "timestamp": "2014-04-15 22:56:01",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "c70b0542-92d4-11e9-a128-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\c70b0542-92d4-11e9-a128-000d3a74c7de.jpg",
+      "timestamp": "2005-05-27 12:58:36",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "c7378ffa-92d4-11e9-90a7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\c7378ffa-92d4-11e9-90a7-000d3a74c7de.jpg",
+      "timestamp": "2005-06-15 18:12:30",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "c7459a3a-92d4-11e9-ae48-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\c7459a3a-92d4-11e9-ae48-000d3a74c7de.jpg",
+      "timestamp": "2005-06-01 09:40:36",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "c7776fa4-92d4-11e9-a75c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\c7776fa4-92d4-11e9-a75c-000d3a74c7de.jpg",
+      "timestamp": "2007-03-15 10:03:01",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "cc3d73f7-92d4-11e9-b6d5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\cc3d73f7-92d4-11e9-b6d5-000d3a74c7de.jpg",
+      "timestamp": "2010-11-15 22:39:59",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "cc6806a9-92d4-11e9-9065-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\cc6806a9-92d4-11e9-9065-000d3a74c7de.jpg",
+      "timestamp": "2010-11-14 20:12:24",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "cd3d09c4-92d4-11e9-99f2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\cd3d09c4-92d4-11e9-99f2-000d3a74c7de.jpg",
+      "timestamp": "2010-12-03 03:18:12",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "cd624534-92d4-11e9-aeb2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\cd624534-92d4-11e9-aeb2-000d3a74c7de.jpg",
+      "timestamp": "2010-12-02 11:36:54",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "cd652b10-92d4-11e9-942c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\cd652b10-92d4-11e9-942c-000d3a74c7de.jpg",
+      "timestamp": "2010-11-21 04:42:11",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d0642067-92d4-11e9-9ed1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d0642067-92d4-11e9-9ed1-000d3a74c7de.jpg",
+      "timestamp": "2010-11-12 19:04:25",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d0736367-92d4-11e9-9d0a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d0736367-92d4-11e9-9d0a-000d3a74c7de.jpg",
+      "timestamp": "2010-11-15 18:42:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d2192278-92d4-11e9-b89f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d2192278-92d4-11e9-b89f-000d3a74c7de.jpg",
+      "timestamp": "2007-11-29 17:42:57",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d21d19da-92d4-11e9-b6fe-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d21d19da-92d4-11e9-b6fe-000d3a74c7de.jpg",
+      "timestamp": "2007-09-13 18:37:45",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d24b0766-92d4-11e9-bcbd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d24b0766-92d4-11e9-bcbd-000d3a74c7de.jpg",
+      "timestamp": "2007-12-04 17:24:13",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d403b451-92d4-11e9-92a5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d403b451-92d4-11e9-92a5-000d3a74c7de.jpg",
+      "timestamp": "2010-07-24 19:52:48",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d58fd22b-92d4-11e9-b691-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d58fd22b-92d4-11e9-b691-000d3a74c7de.jpg",
+      "timestamp": "2010-08-16 19:02:15",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d5d56738-92d4-11e9-981d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d5d56738-92d4-11e9-981d-000d3a74c7de.jpg",
+      "timestamp": "2008-08-12 11:38:03",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "d5dc453a-92d4-11e9-93f4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d5dc453a-92d4-11e9-93f4-000d3a74c7de.jpg",
+      "timestamp": "2008-08-11 19:24:32",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d5f28bb2-92d4-11e9-a55c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d5f28bb2-92d4-11e9-a55c-000d3a74c7de.jpg",
+      "timestamp": "2008-09-15 13:12:51",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d60884c0-92d4-11e9-998e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d60884c0-92d4-11e9-998e-000d3a74c7de.jpg",
+      "timestamp": "2008-09-12 17:39:06",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d60b443a-92d4-11e9-ae9d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d60b443a-92d4-11e9-ae9d-000d3a74c7de.jpg",
+      "timestamp": "2008-09-11 19:15:28",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d62f467a-92d4-11e9-ad0c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d62f467a-92d4-11e9-ad0c-000d3a74c7de.jpg",
+      "timestamp": "2008-10-08 15:56:45",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d6560871-92d4-11e9-8404-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d6560871-92d4-11e9-8404-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "d6b5dbac-92d4-11e9-a21c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d6b5dbac-92d4-11e9-a21c-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "d6b762aa-92d4-11e9-9cb5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d6b762aa-92d4-11e9-9cb5-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "d88dd039-92d4-11e9-8a34-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d88dd039-92d4-11e9-8a34-000d3a74c7de.jpg",
+      "timestamp": "2012-09-07 20:13:28",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "d9155024-92d4-11e9-8fc9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d9155024-92d4-11e9-8fc9-000d3a74c7de.jpg",
+      "timestamp": "2012-09-10 08:12:35",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "d9a05160-92d4-11e9-9b09-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\d9a05160-92d4-11e9-9b09-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 00:00:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "da460764-92d4-11e9-aa1a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\da460764-92d4-11e9-aa1a-000d3a74c7de.jpg",
+      "timestamp": "2012-09-13 19:21:24",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "da4bfaf4-92d4-11e9-abca-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\da4bfaf4-92d4-11e9-abca-000d3a74c7de.jpg",
+      "timestamp": "2012-09-13 19:36:47",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "da4cbe19-92d4-11e9-90c4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\da4cbe19-92d4-11e9-90c4-000d3a74c7de.jpg",
+      "timestamp": "2012-09-13 19:38:48",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "dac87dd6-92d4-11e9-9cdb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\dac87dd6-92d4-11e9-9cdb-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "db485c14-92d4-11e9-a790-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\db485c14-92d4-11e9-a790-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "db62e8f3-92d4-11e9-b58c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\db62e8f3-92d4-11e9-b58c-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 03:22:43",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "db6cfb5e-92d4-11e9-9922-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\db6cfb5e-92d4-11e9-9922-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "dc3c8038-92d4-11e9-9fd2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\dc3c8038-92d4-11e9-9fd2-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 08:00:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "dc3ca7c0-92d4-11e9-be47-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\dc3ca7c0-92d4-11e9-be47-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 08:00:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "dd104ada-92d4-11e9-8b22-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\dd104ada-92d4-11e9-8b22-000d3a74c7de.jpg",
+      "timestamp": "2012-09-22 11:19:27",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "dd8f3ef4-92d4-11e9-8a4e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\dd8f3ef4-92d4-11e9-8a4e-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "ddb034de-92d4-11e9-8d57-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ddb034de-92d4-11e9-8d57-000d3a74c7de.jpg",
+      "timestamp": "2012-09-24 13:40:52",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "dde32b6e-92d4-11e9-b895-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\dde32b6e-92d4-11e9-b895-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "de1e5f92-92d4-11e9-a591-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\de1e5f92-92d4-11e9-a591-000d3a74c7de.jpg",
+      "timestamp": "2012-09-26 07:30:59",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "df7b8faf-92d4-11e9-83f9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\df7b8faf-92d4-11e9-83f9-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e222ba35-92d4-11e9-8643-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e222ba35-92d4-11e9-8643-000d3a74c7de.jpg",
+      "timestamp": "2012-10-04 08:02:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "e22ec88c-92d4-11e9-9833-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e22ec88c-92d4-11e9-9833-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e26542e7-92d4-11e9-9521-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e26542e7-92d4-11e9-9521-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 08:44:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "e2aafcd3-92d4-11e9-be85-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e2aafcd3-92d4-11e9-be85-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e2ebd908-92d4-11e9-b668-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e2ebd908-92d4-11e9-b668-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e3f92d4a-92d4-11e9-b443-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e3f92d4a-92d4-11e9-b443-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e447d41e-92d4-11e9-a878-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e447d41e-92d4-11e9-a878-000d3a74c7de.jpg",
+      "timestamp": "2017-10-11 10:15:20",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "e4573b28-92d4-11e9-9a8f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e4573b28-92d4-11e9-9a8f-000d3a74c7de.jpg",
+      "timestamp": "2012-10-11 12:00:47",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "e48fb09d-92d4-11e9-9bf5-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e48fb09d-92d4-11e9-9bf5-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e541e9be-92d4-11e9-b490-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e541e9be-92d4-11e9-b490-000d3a74c7de.jpg",
+      "timestamp": "2012-10-13 10:01:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "e5512d0f-92d4-11e9-b7b4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e5512d0f-92d4-11e9-b7b4-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 12:23:58",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "e588dd62-92d4-11e9-a9b3-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e588dd62-92d4-11e9-a9b3-000d3a74c7de.jpg",
+      "timestamp": "2012-10-13 19:07:24",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e62ac466-92d4-11e9-b10e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e62ac466-92d4-11e9-b10e-000d3a74c7de.jpg",
+      "timestamp": "2012-10-15 18:34:01",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e62b8668-92d4-11e9-90ed-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e62b8668-92d4-11e9-90ed-000d3a74c7de.jpg",
+      "timestamp": "2012-10-15 18:41:17",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e6c247ba-92d4-11e9-a100-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e6c247ba-92d4-11e9-a100-000d3a74c7de.jpg",
+      "timestamp": "2012-10-16 21:42:44",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e74f318a-92d4-11e9-bc8c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e74f318a-92d4-11e9-bc8c-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 00:48:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e7d812b8-92d4-11e9-bef6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e7d812b8-92d4-11e9-bef6-000d3a74c7de.jpg",
+      "timestamp": "2012-10-19 03:31:36",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e7f9061a-92d4-11e9-b280-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e7f9061a-92d4-11e9-b280-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e7fb0200-92d4-11e9-a35c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e7fb0200-92d4-11e9-a35c-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e83f0fc5-92d4-11e9-a3ad-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e83f0fc5-92d4-11e9-a3ad-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e8e8e748-92d4-11e9-8f21-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e8e8e748-92d4-11e9-8f21-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e97f8144-92d4-11e9-bf7e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e97f8144-92d4-11e9-bf7e-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e97f8146-92d4-11e9-95db-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e97f8146-92d4-11e9-95db-000d3a74c7de.jpg",
+      "timestamp": "2012-10-25 01:48:56",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "e9ff1040-92d4-11e9-9bd7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\e9ff1040-92d4-11e9-9bd7-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "eb303c8c-92d4-11e9-a594-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\eb303c8c-92d4-11e9-a594-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "eb7dc281-92d4-11e9-9051-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\eb7dc281-92d4-11e9-9051-000d3a74c7de.jpg",
+      "timestamp": "2012-10-31 19:55:49",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ec498eb9-92d4-11e9-979f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ec498eb9-92d4-11e9-979f-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "ed53b89a-92d4-11e9-807d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ed53b89a-92d4-11e9-807d-000d3a74c7de.jpg",
+      "timestamp": "2011-06-24 19:34:55",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ed8af53c-92d4-11e9-94b0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ed8af53c-92d4-11e9-94b0-000d3a74c7de.jpg",
+      "timestamp": "2011-07-24 21:11:53",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "edd6cb3e-92d4-11e9-841b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\edd6cb3e-92d4-11e9-841b-000d3a74c7de.jpg",
+      "timestamp": "2011-07-01 10:16:02",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "ee129c01-92d4-11e9-bc0a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ee129c01-92d4-11e9-bc0a-000d3a74c7de.jpg",
+      "timestamp": "2011-06-26 07:04:30",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "eeb45a61-92d4-11e9-a3b1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\eeb45a61-92d4-11e9-a3b1-000d3a74c7de.jpg",
+      "timestamp": "2011-07-05 00:53:18",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ef00a7f3-92d4-11e9-ae04-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ef00a7f3-92d4-11e9-ae04-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "eff00e72-92d4-11e9-bdd1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\eff00e72-92d4-11e9-bdd1-000d3a74c7de.jpg",
+      "timestamp": "2011-06-24 05:53:55",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "f0fdafc3-92d4-11e9-9aa2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f0fdafc3-92d4-11e9-9aa2-000d3a74c7de.jpg",
+      "timestamp": "2011-07-07 16:40:40",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "f12b2696-92d4-11e9-8bb8-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f12b2696-92d4-11e9-8bb8-000d3a74c7de.jpg",
+      "timestamp": "2011-05-22 11:05:30",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "f35b9b94-92d4-11e9-8f0d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f35b9b94-92d4-11e9-8f0d-000d3a74c7de.jpg",
+      "timestamp": "2011-07-12 09:09:29",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "f50e53f8-92d4-11e9-9e1a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f50e53f8-92d4-11e9-9e1a-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f5f88cf8-92d4-11e9-98df-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f5f88cf8-92d4-11e9-98df-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f759cd1a-92d4-11e9-8346-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f759cd1a-92d4-11e9-8346-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f7b9780e-92d4-11e9-80d9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f7b9780e-92d4-11e9-80d9-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f80d3c23-92d4-11e9-88c4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f80d3c23-92d4-11e9-88c4-000d3a74c7de.jpg",
+      "timestamp": "2011-10-18 01:54:41",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "f9205a3c-92d4-11e9-a54e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f9205a3c-92d4-11e9-a54e-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f9ad30d0-92d4-11e9-a91a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f9ad30d0-92d4-11e9-a91a-000d3a74c7de.jpg",
+      "timestamp": "2011-10-14 21:23:14",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "f9f0a242-92d4-11e9-9af9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\f9f0a242-92d4-11e9-9af9-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "fa2a28cc-92d4-11e9-ba51-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\fa2a28cc-92d4-11e9-ba51-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "fc386b15-92d4-11e9-9005-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\fc386b15-92d4-11e9-9005-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 17:45:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "fd16c650-92d4-11e9-85dc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\fd16c650-92d4-11e9-85dc-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 00:42:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "feaa6374-92d4-11e9-91d4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\feaa6374-92d4-11e9-91d4-000d3a74c7de.jpg",
+      "timestamp": "2011-11-03 17:10:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "fec56596-92d4-11e9-b84f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\fec56596-92d4-11e9-b84f-000d3a74c7de.jpg",
+      "timestamp": "2011-10-22 22:33:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ff063f59-92d4-11e9-bd7d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ff063f59-92d4-11e9-bd7d-000d3a74c7de.jpg",
+      "timestamp": "2011-10-21 04:34:10",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "ff3e1831-92d4-11e9-8f99-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\ff3e1831-92d4-11e9-8f99-000d3a74c7de.jpg",
+      "timestamp": "2011-10-17 17:39:41",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "fff16269-92d4-11e9-b92c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\train\\fff16269-92d4-11e9-b92c-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 08:40:20",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "0523f3fa-92d5-11e9-9294-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\0523f3fa-92d5-11e9-9294-000d3a74c7de.jpg",
+      "timestamp": "2012-08-13 20:41:38",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "067e08e5-92d5-11e9-b064-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\067e08e5-92d5-11e9-b064-000d3a74c7de.jpg",
+      "timestamp": "2012-08-17 17:40:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0a20b204-92d5-11e9-b165-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\0a20b204-92d5-11e9-b165-000d3a74c7de.jpg",
+      "timestamp": "2011-10-14 14:27:01",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0cdd5923-92d5-11e9-81d7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\0cdd5923-92d5-11e9-81d7-000d3a74c7de.jpg",
+      "timestamp": "2010-10-01 13:25:04",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "0dc7e034-92d5-11e9-89dc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\0dc7e034-92d5-11e9-89dc-000d3a74c7de.jpg",
+      "timestamp": "2010-09-18 03:59:57",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "0e4f38cd-92d5-11e9-a8f9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\0e4f38cd-92d5-11e9-a8f9-000d3a74c7de.jpg",
+      "timestamp": "2012-02-19 10:56:25",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "11465900-92d5-11e9-b008-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\11465900-92d5-11e9-b008-000d3a74c7de.jpg",
+      "timestamp": "2012-02-07 02:03:14",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "11572202-92d5-11e9-9409-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\11572202-92d5-11e9-9409-000d3a74c7de.jpg",
+      "timestamp": "2012-02-16 19:56:03",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "11786594-92d5-11e9-8b7c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\11786594-92d5-11e9-8b7c-000d3a74c7de.jpg",
+      "timestamp": "2012-02-22 18:00:51",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "1cc902b6-92d5-11e9-97b1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\1cc902b6-92d5-11e9-97b1-000d3a74c7de.jpg",
+      "timestamp": "2011-08-04 12:12:07",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "1ce4ee88-92d5-11e9-82e2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\1ce4ee88-92d5-11e9-82e2-000d3a74c7de.jpg",
+      "timestamp": "2011-08-06 10:03:23",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1d14b11d-92d5-11e9-acf0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\1d14b11d-92d5-11e9-acf0-000d3a74c7de.jpg",
+      "timestamp": "2011-08-12 09:21:43",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "1d1b40cb-92d5-11e9-bdd0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\1d1b40cb-92d5-11e9-bdd0-000d3a74c7de.jpg",
+      "timestamp": "2011-08-17 08:41:14",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "233572bc-92d5-11e9-ae29-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\233572bc-92d5-11e9-ae29-000d3a74c7de.jpg",
+      "timestamp": "2011-07-11 15:39:11",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "23b4c1e4-92d5-11e9-a7f6-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\23b4c1e4-92d5-11e9-a7f6-000d3a74c7de.jpg",
+      "timestamp": "2011-07-12 03:01:33",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "25b72342-92d5-11e9-8ae4-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\25b72342-92d5-11e9-8ae4-000d3a74c7de.jpg",
+      "timestamp": "2011-07-13 13:27:58",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "37e2a520-92d5-11e9-8267-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\37e2a520-92d5-11e9-8267-000d3a74c7de.jpg",
+      "timestamp": "2010-02-23 00:02:23",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "39f2245a-92d5-11e9-bfea-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\39f2245a-92d5-11e9-bfea-000d3a74c7de.jpg",
+      "timestamp": "2010-02-13 09:58:08",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "44fd9910-92d5-11e9-89d7-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\44fd9910-92d5-11e9-89d7-000d3a74c7de.jpg",
+      "timestamp": "2013-02-25 22:24:46",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "45167779-92d5-11e9-816f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\45167779-92d5-11e9-816f-000d3a74c7de.jpg",
+      "timestamp": "2013-02-08 12:08:54",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4602107a-92d5-11e9-8576-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4602107a-92d5-11e9-8576-000d3a74c7de.jpg",
+      "timestamp": "2013-02-01 18:50:51",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4d12aa3a-92d5-11e9-be74-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4d12aa3a-92d5-11e9-be74-000d3a74c7de.jpg",
+      "timestamp": "2009-07-10 12:24:15",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4df607cc-92d5-11e9-aecd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4df607cc-92d5-11e9-aecd-000d3a74c7de.jpg",
+      "timestamp": "2009-08-24 04:08:52",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "4e07b87a-92d5-11e9-ac87-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4e07b87a-92d5-11e9-ac87-000d3a74c7de.jpg",
+      "timestamp": "2009-08-18 17:07:37",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "4e444c98-92d5-11e9-ae3f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4e444c98-92d5-11e9-ae3f-000d3a74c7de.jpg",
+      "timestamp": "2009-08-15 09:20:46",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e46e41a-92d5-11e9-9339-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4e46e41a-92d5-11e9-9339-000d3a74c7de.jpg",
+      "timestamp": "2009-08-15 09:43:34",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "4e6d09c8-92d5-11e9-a06a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\4e6d09c8-92d5-11e9-a06a-000d3a74c7de.jpg",
+      "timestamp": "2009-08-05 21:18:24",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "50661b3c-92d5-11e9-b711-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\50661b3c-92d5-11e9-b711-000d3a74c7de.jpg",
+      "timestamp": "2009-10-04 07:02:51",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "50697827-92d5-11e9-825c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\50697827-92d5-11e9-825c-000d3a74c7de.jpg",
+      "timestamp": "2009-10-02 04:11:58",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "506de326-92d5-11e9-9326-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\506de326-92d5-11e9-9326-000d3a74c7de.jpg",
+      "timestamp": "2009-10-11 12:15:43",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "50bdfaf0-92d5-11e9-a4f9-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\50bdfaf0-92d5-11e9-a4f9-000d3a74c7de.jpg",
+      "timestamp": "2009-10-05 16:43:50",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "569f65ed-92d5-11e9-b896-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\569f65ed-92d5-11e9-b896-000d3a74c7de.jpg",
+      "timestamp": "2012-06-10 23:35:20",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "56dbd2b8-92d5-11e9-80dc-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\56dbd2b8-92d5-11e9-80dc-000d3a74c7de.jpg",
+      "timestamp": "2012-06-29 23:32:45",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5822f3cc-92d5-11e9-9a4a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\5822f3cc-92d5-11e9-9a4a-000d3a74c7de.jpg",
+      "timestamp": "2012-06-23 01:50:20",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "5e59da8c-92d5-11e9-b8ae-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\5e59da8c-92d5-11e9-b8ae-000d3a74c7de.jpg",
+      "timestamp": "2015-02-12 17:24:07",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "5ead2ab7-92d5-11e9-a87d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\5ead2ab7-92d5-11e9-a87d-000d3a74c7de.jpg",
+      "timestamp": "2015-02-06 13:57:10",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "8b4b80d8-92d5-11e9-bec1-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\8b4b80d8-92d5-11e9-bec1-000d3a74c7de.jpg",
+      "timestamp": "2013-06-21 03:12:24",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8d582a14-92d5-11e9-a585-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\8d582a14-92d5-11e9-a585-000d3a74c7de.jpg",
+      "timestamp": "2013-04-28 19:06:08",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8d5fa428-92d5-11e9-8a60-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\8d5fa428-92d5-11e9-8a60-000d3a74c7de.jpg",
+      "timestamp": "2013-05-06 23:56:29",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8d60dca6-92d5-11e9-b569-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\8d60dca6-92d5-11e9-b569-000d3a74c7de.jpg",
+      "timestamp": "2013-05-07 00:25:56",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f7034e1-92d5-11e9-976b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\8f7034e1-92d5-11e9-976b-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 19:29:18",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "8f81739c-92d5-11e9-9a6e-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\8f81739c-92d5-11e9-9a6e-000d3a74c7de.jpg",
+      "timestamp": "2013-07-09 20:26:25",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "941383e4-92d5-11e9-baaa-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\941383e4-92d5-11e9-baaa-000d3a74c7de.jpg",
+      "timestamp": "2013-05-03 04:33:57",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "950a191e-92d5-11e9-9e98-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\950a191e-92d5-11e9-9e98-000d3a74c7de.jpg",
+      "timestamp": "2013-07-06 16:40:16",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "9846a618-92d5-11e9-9b4d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\9846a618-92d5-11e9-9b4d-000d3a74c7de.jpg",
+      "timestamp": "2013-05-15 22:56:44",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "997adb6c-92d5-11e9-b69f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\997adb6c-92d5-11e9-b69f-000d3a74c7de.jpg",
+      "timestamp": "2013-05-20 23:08:09",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9d91c142-92d5-11e9-bfab-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\9d91c142-92d5-11e9-bfab-000d3a74c7de.jpg",
+      "timestamp": "2013-06-01 04:52:44",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "9fec79e1-92d5-11e9-bcaa-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\9fec79e1-92d5-11e9-bcaa-000d3a74c7de.jpg",
+      "timestamp": "2013-04-21 03:25:06",
+      "method": "EXIF Metadata",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "a1223ada-92d5-11e9-9904-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\a1223ada-92d5-11e9-9904-000d3a74c7de.jpg",
+      "timestamp": "2013-07-28 07:39:16",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "bc1f40ce-92d5-11e9-9b9c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\bc1f40ce-92d5-11e9-9b9c-000d3a74c7de.jpg",
+      "timestamp": "2008-02-04 08:33:10",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "c75f155c-92d4-11e9-ae9f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\c75f155c-92d4-11e9-ae9f-000d3a74c7de.jpg",
+      "timestamp": "2005-06-27 13:55:38",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "c7a13d69-92d4-11e9-a2b0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\c7a13d69-92d4-11e9-a2b0-000d3a74c7de.jpg",
+      "timestamp": "2006-11-08 09:18:31",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "d0920cf0-92d4-11e9-8170-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\d0920cf0-92d4-11e9-8170-000d3a74c7de.jpg",
+      "timestamp": "2010-11-18 06:47:59",
+      "method": "EXIF Metadata",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "d208a8fd-92d4-11e9-ac1f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\d208a8fd-92d4-11e9-ac1f-000d3a74c7de.jpg",
+      "timestamp": "2005-07-11 16:27:33",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d6183c4a-92d4-11e9-b32c-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\d6183c4a-92d4-11e9-b32c-000d3a74c7de.jpg",
+      "timestamp": "2008-10-08 15:14:37",
+      "method": "EXIF Metadata",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "d8a74b92-92d4-11e9-823d-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\d8a74b92-92d4-11e9-823d-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 11:20:55",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "d9ce3f4b-92d4-11e9-8f34-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\d9ce3f4b-92d4-11e9-8f34-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 10:59:24",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "d9dff282-92d4-11e9-9399-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\d9dff282-92d4-11e9-9399-000d3a74c7de.jpg",
+      "timestamp": "2012-09-12 12:28:55",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "da222bbb-92d4-11e9-b84a-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\da222bbb-92d4-11e9-b84a-000d3a74c7de.jpg",
+      "timestamp": "2012-09-13 11:30:36",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "db398f0c-92d4-11e9-9aa2-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\db398f0c-92d4-11e9-9aa2-000d3a74c7de.jpg",
+      "timestamp": "2012-09-16 19:04:52",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "dc38d712-92d4-11e9-a77b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\dc38d712-92d4-11e9-a77b-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "dd74b263-92d4-11e9-b46b-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\dd74b263-92d4-11e9-b46b-000d3a74c7de.jpg",
+      "timestamp": "2012-08-23 07:07:24",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "df0ffbaa-92d4-11e9-85bd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\df0ffbaa-92d4-11e9-85bd-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e22eef56-92d4-11e9-9a02-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\e22eef56-92d4-11e9-9a02-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e542125b-92d4-11e9-845f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\e542125b-92d4-11e9-845f-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "e74f58d5-92d4-11e9-86f0-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\e74f58d5-92d4-11e9-86f0-000d3a74c7de.jpg",
+      "timestamp": "2000-01-01 11:00:24",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "eb2a21be-92d4-11e9-a6dd-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\eb2a21be-92d4-11e9-a6dd-000d3a74c7de.jpg",
+      "timestamp": "2012-10-30 17:20:28",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    },
+    {
+      "file": "f4ba8ea2-92d4-11e9-ad73-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\f4ba8ea2-92d4-11e9-ad73-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "f4d78c7d-92d4-11e9-bb5f-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\f4d78c7d-92d4-11e9-bb5f-000d3a74c7de.jpg",
+      "timestamp": "2011-10-24 07:38:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Morning",
+      "success": true
+    },
+    {
+      "file": "f5b171cf-92d4-11e9-89be-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\f5b171cf-92d4-11e9-89be-000d3a74c7de.jpg",
+      "timestamp": "2011-11-12 21:20:52",
+      "method": "OCR (Top Strip)",
+      "bucket": "Night",
+      "success": true
+    },
+    {
+      "file": "f8861898-92d4-11e9-89ad-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\f8861898-92d4-11e9-89ad-000d3a74c7de.jpg",
+      "timestamp": null,
+      "method": null,
+      "bucket": "Unknown",
+      "success": false
+    },
+    {
+      "file": "fde9a6ea-92d4-11e9-a9cb-000d3a74c7de.jpg",
+      "path": "extracted_temp_images\\dataset\\images\\val\\fde9a6ea-92d4-11e9-a9cb-000d3a74c7de.jpg",
+      "timestamp": "2011-10-14 16:32:00",
+      "method": "OCR (Top Strip)",
+      "bucket": "Evening",
+      "success": true
+    }
+  ]
+}

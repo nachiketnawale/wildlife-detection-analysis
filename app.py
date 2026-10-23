@@ -152,6 +152,15 @@ def health():
     return jsonify({"status": "running"})
 
 
+@app.route("/animal_frequency_data.json")
+def animal_frequency_api():
+    from flask import send_from_directory
+    frequency_file = ROOT / "animal_frequency_data.json"
+    if not frequency_file.exists():
+        return jsonify({"error": "animal_frequency_data.json is still generating"}), 404
+    return send_from_directory(ROOT, "animal_frequency_data.json")
+
+
 @app.route("/detect", methods=["GET", "POST"])
 def detect():
     result_data = None

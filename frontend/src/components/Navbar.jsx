@@ -1,9 +1,10 @@
 import React from 'react';
-import { LayoutDashboard, Crosshair, GraduationCap, Sparkles, CheckCircle2, AlertCircle } from 'lucide-react';
+import { LayoutDashboard, Clock, Crosshair, GraduationCap, Sparkles, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, backendStatus }) {
   const navItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
+    { id: 'time', label: 'Time-of-Day Activity', icon: Clock },
     { id: 'detect', label: 'Detection View', icon: Crosshair },
     { id: 'teach', label: 'Teach AI View', icon: GraduationCap },
   ];
@@ -24,7 +25,7 @@ export default function Navbar({ activeTab, setActiveTab, backendStatus }) {
                   YOLOv8
                 </span>
               </div>
-              <p className="text-xs text-forest-200/70 hidden sm:block">Wildlife Intelligence & Active Learning</p>
+              <p className="text-xs text-forest-200/70 hidden sm:block">Wildlife Monitoring & Camera Trap Insights</p>
             </div>
           </div>
 
